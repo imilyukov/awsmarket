@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Main layout
+ *
+ * @category    design
+ * @package     awsmarket
+ * @theme       default
+ */
+-->
+<layout version="0.1.0">
+    <!--
+    Default layout, loads most of the pages
+    -->
+    <default translate="label" module="page">
+        <label>All Pages</label>
+        <block type="page/html" name="root" output="toHtml" template="page/2columns-right.phtml">
+
+            <!-- Add Styles to Head -->
+            <block type="page/html_head" name="head" as="head">
+                <action method="addCss"><stylesheet>css/reset.css</stylesheet></action>
+                <action method="addCss"><stylesheet>css/style.css</stylesheet></action>
+                <action method="addItem"><type>skin_js</type><name>js/html5shiv.js</name><params/><if>lt IE 8</if></action>
+                <action method="addItem"><type>skin_js</type><name>http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js</name><params/><if>lt IE 8</if></action>
+                <action method="addItem"><type>skin_js</type><name>lib/jquery-1.9.1.min.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>js/script.js</name></action>
+            </block>
+
+            <!-- Header -->
+            <block type="page/html_header" name="header" as="header" translate="label">
+                <label>Header</label>
+                <block type="customer/form_login" name="customer_form_login" as="topLogin" template="customer/form/login.phtml" />
+                <block type="core/text_list" name="top.menu" as="topMenu" translate="label">
+                    <label>Navigation Bar</label>
+                    <block type="page/html_topmenu" name="catalog.topnav" template="page/html/topmenu.phtml"/>
+                </block>
+                <block type="core/template" name="top.search" as="topSearch" template="catalogsearch/form.mini.phtml"/>
+            </block>
+
+            <!-- Sidebar -->
+            <block type="catalog/navigation" name="sidebar" as="sidebar" translate="label" template="catalog/navigation/sidebar.phtml">
+                <label>Sidebar</label>
+            </block>
+
+            <!-- Main Content Area -->
+            <block type="core/text_list" name="content" as="content" translate="label">
+                <label>Main Content Area</label>
+            </block>
+
+            <!-- The Footer -->
+            <block type="page/html_footer" name="footer" as="footer" template="page/html/footer.phtml">
+                <label>Footer</label>
+            </block>
+        </block>
+    </default>
+
+    <page_one_column translate="label">
+        <label>All One-Column Layout Pages</label>
+        <reference name="root">
+            <remove name="sidebar" />
+        </reference>
+    </page_one_column>
+</layout>

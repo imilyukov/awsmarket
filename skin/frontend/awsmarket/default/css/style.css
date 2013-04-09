@@ -1,0 +1,419 @@
+
+/* Общие стили */
+/***********************************************/
+
+html {
+    height:100%;
+    width:100%;
+}
+input {
+    border: none;
+    outline: none;
+    outline: 0
+}
+input[type=submit] {
+    cursor: pointer
+}
+body {
+    height:100%;
+    width:100%;
+    color: #8e8e8e;
+    background: #000 url('../images/bg.jpg') top center;
+    font: normal 11px Verdana,"Bitstream Vera Sans","DejaVu Sans","Liberation Sans",Geneva,sans-serif
+}
+a {
+    color: #8e8e8e;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.clear {
+    clear: both;
+    padding-bottom: 13px;
+}
+.wrapper {
+    width: 1002px;
+    margin: 0 auto -211px;
+    min-height: 100%
+}
+.content {
+    padding-bottom: 211px;
+    width: 100%;
+}
+.mainNav .homePage a,
+.searchInner input[type=submit],
+.logo {
+    background-repeat:no-repeat;
+    background-image:url(../images/sprite.png)
+}
+
+/* Стили шапки */
+/***********************************************/
+
+header {
+    height: 236px;
+    width: 100%;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    left: -2px;
+    top: 33px;
+    width:290px;
+    height:84px;
+    display: block;
+    background-position: -206px -2px
+}
+.login {
+    position: absolute;
+    right: 0;
+    top: 69px;
+    color: #fff;
+    font: italic 13px Georgia,"Bitstream Charter","Century Schoolbook L","Liberation Serif",Times,serif
+}
+.login a{
+    color: #fff
+}
+.search {
+    position: absolute;
+    right: 0;
+    top: 134px;
+    padding: 3px;
+    border: 1px solid #fff;
+    width: 295px;
+    height: 29px
+}
+.searchInner {
+    width: 295px;
+    height: 29px;
+    background:url(../images/menu_bg.png);
+}
+.searchInner input[type=submit]{
+    height: 20px;
+    width:19px;
+    background-position: -41px -2px;
+    background-color: transparent;
+    float: left;
+    margin: 6px 0 0 6px
+}
+.searchInner input[type=text]{
+    font: italic 13px/19px Georgia,"Bitstream Charter","Century Schoolbook L","Liberation Serif",Times,serif;
+    height:19px;
+    float: right;
+    color: #fff;
+    margin: 5px 11px 0 0;
+    background: none;
+    text-align: right;
+    width: 250px
+}
+.mainNav {
+    position: absolute;
+    left: 0;
+    top: 134px;
+}
+.mainNav > ul > li{
+    float: left;
+    position: relative;
+    white-space: nowrap;
+}
+.mainNav > ul > li > a{
+    display: block;
+    height: 37px;
+    padding: 0 22px;
+    color: #fff;
+    font: italic 22px/37px Georgia,"Bitstream Charter","Century Schoolbook L","Liberation Serif",Times,serif;
+    background:url(../images/menu_bg.png);
+}
+.mainNav .homePage{
+    margin-right: 30px
+}
+.mainNav > ul > li:hover > a{
+    color: #000;
+    text-decoration: underline;
+    background: #cfcfd0
+}
+.mainNav > ul > li.homePage a,
+.mainNav > ul > li.homePage:hover a{
+    width:37px;
+    height:37px;
+    padding:0;
+    background:url(../images/sprite.png) no-repeat -2px -2px;
+    text-indent: -9999px;
+}
+.mainNav > ul > li > ul{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    box-shadow: 3px 4px 8px rgba(255,255,255,.35);
+    border-top: 1px solid #ccc;
+    padding: 23px;
+    overflow: hidden;
+    background: #000;
+    z-index: 50;
+    white-space: nowrap;
+}
+.mainNav ul li ul li{
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: 0;
+    display: table;
+}
+.mainNav ul li ul li ul{
+    display: inline-block;
+    vertical-align: top
+}
+.sublistHeader {
+    height: 21px;
+    border-bottom: 1px solid #595959;
+    margin-bottom: 17px;
+    border-right: 0;
+    padding: 0 !important;
+    border-right: 0 !important;
+}
+.mainNav ul li ul li ul li{
+    padding: 0 17px 6px;
+    border-right: 2px solid #1f1f1f;
+    font-size: 11px !important;
+    line-height: 1.6em !important;
+    letter-spacing: normal !important;
+    display: block;
+}
+.mainNav ul li ul li ul li a{
+    color: #fff
+}
+.mainNav ul li ul li ul:first-child li{
+    padding-left: 0;
+}
+.mainNav ul li ul li ul:last-child li{
+    border-right: 0
+}
+
+/* Стили контента */
+/***********************************************/
+.promo {
+    width: 660px;
+    padding: 10px 0;
+    float: left;
+    height: 153px;
+    background: url(../images/promo.png) repeat-x 0 0;
+    overflow: hidden;
+}
+.promo ul{
+    width: 700px;
+}
+.promo ul li{
+    float: left;
+    width: 110px;
+    height: 139px;
+    background: #000;
+    border: 1px solid #727272;
+    padding: 6px;
+    margin-right: 10px
+}
+.promo ul li img{
+    float: left;
+    margin-bottom: 8px
+}
+.promo ul li h5{
+    height: 27px;
+    border-bottom: 1px solid #464646;
+    margin-bottom: 3px;
+    font-size: 9px;
+    float: left;
+    width: 100%
+}
+.promo ul li .price {
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    float: left;
+    width: 100%
+}
+.cart {
+    border: 1px solid #fff;
+    padding: 5px 4px;
+    float: right;
+}
+.cartInner {
+    background:url(../images/menu_bg.png);
+    padding: 10px 14px;
+    width: 268px
+}
+.cartInner table{
+    width: 100%
+}
+.cartInner h4{
+    height: 25px;
+    border-bottom: 1px dotted #858585;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.cartInner h4 a{
+    color: #fff;
+    text-decoration: underline;
+}
+.cartInner h4 a:hover{
+    color: #ddd;
+}
+.cartInner tr td{
+    padding: 12px 0
+}
+.cartInner tr {
+    border-bottom: 1px solid #555556
+}
+.cartInner tr:last-child {
+    border-bottom: none;
+    color: #fff;
+    font-size: 13px
+}
+.cartInner tr td:last-child{
+    padding-left: 5px;
+    text-align: right;
+}
+.hotSales {
+    padding: 10px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    width: 980px
+}
+.hotSales ul{
+    width: 1010px
+}
+.hotSales ul li{
+    float: left;
+    margin-right: 10px
+}
+.hotSales ul li a{
+    display: block;
+    width: 320px;
+    height: 329px;
+    position: relative;
+}
+.hotSales ul li a img{
+    float: left;
+}
+.hotSales ul li a .info{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    font: italic 11px Georgia,"Bitstream Charter","Century Schoolbook L","Liberation Serif",Times,serif;
+}
+.hotSales ul li a .overlay{
+    position: absolute;
+    display: block;
+    width: 320px;
+    height: 329px;
+    z-index: 50;
+    visibility: hidden;
+    background: url(../images/hot_overlay.png)
+}
+.hotSales ul li a:hover .overlay{
+    visibility: visible;
+}
+.hotSales ul li a span i{
+    font-size: 35px;
+    display: block;
+    margin-left: 3px
+}
+.hotSales ul li a .first{
+    color: #fff
+}
+.hotSales ul li a .second{
+    color: #7a7a7a;
+    left: 22px;
+}
+.hotSales ul li a .second i{
+    color: #000;
+    left: 22px;
+}
+.hotSales ul li a .third{
+    color: #7a7a7a;
+    left: 28px;
+}
+.hotSales ul li a .third i{
+    color: #000;
+}
+/* Стили подвала */
+/***********************************************/
+
+footer {
+    width: 100%;
+    height: 211px;
+}
+footer .whiteShadow {
+    background: url(../images/white_shadow.png) repeat-x 0 0;
+    height: 50px
+}
+footer .footerBg {
+    background: #000;
+    height: 161px
+}
+footer .footerInner {
+    width: 818px;
+    margin: 0 auto;
+    position: relative;
+    padding: 30px 92px 0
+}
+.footerInner ul {
+    float: left;
+    padding: 0 50px;
+    border-left: 1px solid #484848
+}
+.footerInner ul:first-child {
+    padding-left: 0;
+    border-left: none
+}
+.footerInner ul li {
+    margin-bottom: 4px
+}
+.footerInner ul .listHeader {
+    margin-bottom: 16px
+}
+.follow {
+    float: right;
+    width: 90px;
+    overflow: hidden;
+}
+.follow h5{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #252525;
+    box-shadow: 0 1px 0 #484848;
+    margin-bottom: 12px
+}
+.follow p {
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 150px
+}
+.follow p a{
+    display: block;
+    float: left;
+    width:22px;
+    height:22px;
+    margin-right: 12px;
+    background-repeat: no-repeat;
+    background-image:url(../images/sprite.png);
+}
+.facebook {
+    background-position: -62px -2px
+}
+.twitter {
+    background-position: -86px -2px
+}
+.youtube {
+    background-position: -110px -2px
+}
+.facebook:hover {
+    background-position: -134px -2px
+}
+.twitter:hover {
+    background-position: -158px -2px
+}
+.youtube:hover {
+    background-position: -182px -2px
+}
+.copyright {
+    font-size: 9px
+}
