@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page>
+    <layouts>
+        <page_one_column module="page" translate="label">
+            <label>Page 1 Column</label>
+            <template>page/vacancy-2columns.phtml</template>
+            <layout_handle>page_one_column</layout_handle>
+        </page_one_column>
+    </layouts>
+</page>

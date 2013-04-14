@@ -21,7 +21,13 @@
                 <action method="addCss"><stylesheet>css/reset.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/style.css</stylesheet></action>
                 <action method="addItem"><type>skin_js</type><name>js/html5shiv.js</name><params/><if>lt IE 8</if></action>
-                <action method="addItem"><type>skin_js</type><name>http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js</name><params/><if>lt IE 8</if></action>
+                <action method="addItem"><type>skin_js</type><name>js/IE9.js</name><params/><if>lt IE 8</if></action>
+                <!-- Prototype -->
+                <action method="addJs"><script>prototype/prototype.js</script></action>
+                <action method="addJs"><script>prototype/validation.js</script></action>
+                <action method="addJs"><script>varien/js.js</script></action>
+                <action method="addJs"><script>mage/translate.js</script></action>
+                <!-- jQuery -->
                 <action method="addItem"><type>skin_js</type><name>lib/jquery-1.9.1.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/script.js</name></action>
             </block>
@@ -29,16 +35,15 @@
             <!-- Header -->
             <block type="page/html_header" name="header" as="header" translate="label">
                 <label>Header</label>
-                <block type="customer/form_login" name="customer_form_login" as="topLogin" template="customer/form/login.phtml" />
                 <block type="core/text_list" name="top.menu" as="topMenu" translate="label">
                     <label>Navigation Bar</label>
-                    <block type="page/html_topmenu" name="catalog.topnav" template="page/html/topmenu.phtml"/>
+                    <block type="catalog/navigation" name="catalog.topnav" template="catalog/navigation/top.phtml"/>
                 </block>
                 <block type="core/template" name="top.search" as="topSearch" template="catalogsearch/form.mini.phtml"/>
             </block>
 
             <!-- Sidebar -->
-            <block type="catalog/navigation" name="sidebar" as="sidebar" translate="label" template="catalog/navigation/sidebar.phtml">
+            <block type="catalog/navigation" name="sidebar" as="right.sidebar" translate="label" template="catalog/navigation/sidebar.phtml">
                 <label>Sidebar</label>
             </block>
 
@@ -50,14 +55,12 @@
             <!-- The Footer -->
             <block type="page/html_footer" name="footer" as="footer" template="page/html/footer.phtml">
                 <label>Footer</label>
+                <block type="cms/block" name="cms_footer_links" as="cms_footer_links" before="footer_links">
+
+                    <action method="setBlockId"><block_id>footer_links</block_id></action>
+                </block>
             </block>
         </block>
     </default>
 
-    <page_one_column translate="label">
-        <label>All One-Column Layout Pages</label>
-        <reference name="root">
-            <remove name="sidebar" />
-        </reference>
-    </page_one_column>
 </layout>

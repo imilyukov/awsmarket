@@ -6,7 +6,11 @@
             <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
         <?php endif?>
 
-        <?php echo $this->getChildHtml('topLogin') ?>
+        <div class="login">
+
+            <a href="<?php echo $this->getUrl('login') ?>">log in</a>  /  <a href="<?php echo $this->getUrl('registration') ?>">registration</a>
+
+        </div>
         <div class="quick-access">
 
             <?php echo $this->getChildHtml('topSearch') ?>
