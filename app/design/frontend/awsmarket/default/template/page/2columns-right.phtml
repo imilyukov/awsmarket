@@ -10,17 +10,22 @@
 
 <div class="wrapper">
 
-<!-- header -->
-<header>
+    <!-- header -->
+    <header>
 
-    <?php echo $this->getChildHtml('header') ?>
+        <?php echo $this->getChildHtml('header') ?>
 
-</header>
-<!-- header -->
+    </header>
+    <!-- header -->
 
+    <div class="container">
+    <!-- content -->
 
-<!-- content -->
+        <?php echo $this->getChildHtml('content') ?>
+
+    <!--
 <section class="content">
+
 
     <div class="promo">
         <ul>
@@ -126,8 +131,9 @@
 
 </section><!-- content -->
 
-    <?php echo $this->getChildHtml('right.sidebar') ?>
+        <?php echo $this->getChildHtml('right') ?>
 
+    </div>
 </div>
 
 

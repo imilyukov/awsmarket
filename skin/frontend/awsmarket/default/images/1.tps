@@ -22,7 +22,7 @@
         <key>dataFormat</key>
         <string>css</string>
         <key>textureFileName</key>
-        <filename>img.png</filename>
+        <filename>sprite-2.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>ditherType</key>
@@ -74,7 +74,7 @@
             <key>freeSizeMode</key>
             <enum type="AlgorithmSettings::AlgorithmFreeSizeMode">Best</enum>
             <key>sizeConstraints</key>
-            <enum type="AlgorithmSettings::SizeConstraints">POT</enum>
+            <enum type="AlgorithmSettings::SizeConstraints">AnySize</enum>
             <key>forceSquared</key>
             <false/>
             <key>forceWordAligned</key>
@@ -99,7 +99,7 @@
             <key>packageName</key>
             <string>Texture</string>
             <key>javaFileName</key>
-            <filename>img.java</filename>
+            <filename>sprite-2.java</filename>
             <key>wrap</key>
             <struct type="AndEngineWrap">
                 <key>s</key>
@@ -111,7 +111,7 @@
             <enum type="AndEngine::MagFilter">MagLinear</enum>
         </struct>
         <key>dataFileName</key>
-        <filename>img.css</filename>
+        <filename>sprite-2.css</filename>
         <key>mainExtension</key>
         <string></string>
         <key>forceIdenticalLayout</key>
@@ -141,15 +141,17 @@
         </struct>
         <key>fileList</key>
         <array>
-            <filename>../images/5.png</filename>
-            <filename>../images/6.png</filename>
-            <filename>../images/7.png</filename>
-            <filename>../images/9.png</filename>
-            <filename>../images/10.png</filename>
-            <filename>../images/12.png</filename>
-            <filename>../images/19.png</filename>
-            <filename>../images/20.png</filename>
-            <filename>../images/21.png</filename>
+            <filename>../images/12_18.png</filename>
+            <filename>../images/12_20.png</filename>
+            <filename>../images/222_03.png</filename>
+            <filename>../images/222_06.png</filename>
+            <filename>../images/333_03.png</filename>
+            <filename>../images/333_06.png</filename>
+            <filename>../images/aboutpage_07.png</filename>
+            <filename>../images/aboutpage_13.png</filename>
+            <filename>../images/aboutpage_18.png</filename>
+            <filename>../images/aboutpage_20.png</filename>
+            <filename>../images/productpage_03.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

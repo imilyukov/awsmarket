@@ -19,16 +19,28 @@
             <!-- Add Styles to Head -->
             <block type="page/html_head" name="head" as="head">
                 <action method="addCss"><stylesheet>css/reset.css</stylesheet></action>
+                <action method="addCss"><stylesheet>css/chosen.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/style.css</stylesheet></action>
                 <action method="addItem"><type>skin_js</type><name>js/html5shiv.js</name><params/><if>lt IE 8</if></action>
                 <action method="addItem"><type>skin_js</type><name>js/IE9.js</name><params/><if>lt IE 8</if></action>
                 <!-- Prototype -->
                 <action method="addJs"><script>prototype/prototype.js</script></action>
+                <action method="addJs"><script>lib/ccard.js</script></action>
                 <action method="addJs"><script>prototype/validation.js</script></action>
+                <action method="addJs"><script>scriptaculous/builder.js</script></action>
+                <action method="addJs"><script>scriptaculous/effects.js</script></action>
+                <action method="addJs"><script>scriptaculous/dragdrop.js</script></action>
+                <action method="addJs"><script>scriptaculous/controls.js</script></action>
+                <action method="addJs"><script>scriptaculous/slider.js</script></action>
                 <action method="addJs"><script>varien/js.js</script></action>
+                <action method="addJs"><script>varien/form.js</script></action>
+                <action method="addJs"><script>varien/menu.js</script></action>
                 <action method="addJs"><script>mage/translate.js</script></action>
+                <action method="addJs"><script>mage/cookies.js</script></action>
                 <!-- jQuery -->
                 <action method="addItem"><type>skin_js</type><name>lib/jquery-1.9.1.min.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>lib/chosen.jquery.min.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>lib/jcarousellite_1.0.1.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/script.js</name></action>
             </block>
 
@@ -43,13 +55,18 @@
             </block>
 
             <!-- Sidebar -->
-            <block type="catalog/navigation" name="sidebar" as="right.sidebar" translate="label" template="catalog/navigation/sidebar.phtml">
+            <block type="page/html_wrapper" name="right" as="right" translate="label">
                 <label>Sidebar</label>
+                <action method="setElementClass"><value>sidebar</value></action>
+                <action method="setHtmlTagName"><value>aside</value></action>
             </block>
 
             <!-- Main Content Area -->
-            <block type="core/text_list" name="content" as="content" translate="label">
+            <block type="page/html_wrapper" name="content" as="content" translate="label">
                 <label>Main Content Area</label>
+                <action method="setElementClass"><value>content-page</value></action>
+                <action method="setHtmlTagName"><value>section</value></action>
+                <block type="page/html_breadcrumbs" name="breadcrumbs" as="breadcrumbs"/>
             </block>
 
             <!-- The Footer -->
