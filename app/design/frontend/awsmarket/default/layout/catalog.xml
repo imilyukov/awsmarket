@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+<!--
+Category default layout
+-->
+
+    <catalog_category_default translate="label">
+        <label>Catalog Category (Non-Anchor)</label>
+        <reference name="content">
+            <action method="setElementClass"><value>productList</value></action>
+
+            <block type="page/html_wrapper" name="productList.wrapper" translate="label">
+                <label>Product List Wrapper</label>
+                <action method="setElementClass"><value>productListInner</value></action>
+
+                <block type="catalog/category_view" name="category.products" template="catalog/category/view.phtml">
+                    <block type="catalog/product_list" name="product_list" template="catalog/product/list.phtml">
+                        <block type="catalog/product_list_sortingMenu" name="product_list_sortingMenu" template="catalog/product/list/sorting-menu.phtml">
+                            <action method="addAttributeToSort"><type>price</type><default>sort price</default></action>
+                            <action method="addAttributeToFilter"><type>color</type><default>all colors</default></action>
+                            <action method="addAttributeToFilter"><type>clothes_size</type><default>all sizes</default></action>
+                        </block>
+                    </block>
+                </block>
+
+            </block>
+
+        </reference>
+    </catalog_category_default>
+
+</layout>

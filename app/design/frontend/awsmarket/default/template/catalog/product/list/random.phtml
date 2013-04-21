@@ -15,7 +15,9 @@ $helperImage = $this->helper('catalog/image');
 
             <li>
 
-                <a href=""><img src="<?php echo $product->getThumbnailUrl(110, 90) ?>" alt="" /></a>
+                <a href="<?php echo $product->getProductUrl() ?>">
+                    <img src="<?php echo $product->getThumbnailUrl(110, 90) ?>" alt="" />
+                </a>
 
                 <h5><?php echo $product->getName() ?></h5>
 

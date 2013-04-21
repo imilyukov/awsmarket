@@ -28,7 +28,7 @@
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  background: url(../img/menu_bg.png);
+  background: url(../images/menu_bg.png);
   text-decoration: none;
   padding-left: 6px;
   color: #fff;
@@ -75,7 +75,7 @@
   display: block;
   width:10px; 
   height:7px; 
-  background:url(../img/sprite-2.png) no-repeat -1636px -2px;
+  background:url(../images/sprite-2.png) no-repeat -1636px -2px;
   margin: 6px 3px
 }
 .chzn-container-single .chzn-search {
@@ -283,7 +283,7 @@
 /* @group Active  */
 
 .chzn-container-active .chzn-single-with-drop {
-	background: url(../img/menu_bg.png);
+	background: url(../images/menu_bg.png);
 }
 .chzn-container-active .chzn-single-with-drop div {
   background: transparent;

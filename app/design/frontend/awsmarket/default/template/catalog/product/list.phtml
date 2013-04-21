@@ -1,0 +1,38 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: imilyukov
+ * Date: 4/21/13
+ * Time: 10:08 PM
+ * To change this template use File | Settings | File Templates.
+ */
+$productCollection = $this->getLoadedProductCollection();
+$helper = $this->helper('catalog/output');
+?>
+
+<?php echo $this->getChildHtml('product_list_sortingMenu') ?>
+
+<?php if ( $productCollection->count() ): ?>
+
+    <ul class="prodList">
+
+        <?php foreach ($productCollection as $product): ?>
+
+            <li>
+
+                <a href="<?php echo $product->getProductUrl() ?>">
+                    <img alt="" src="<?php echo $product->getThumbnailUrl(225, 270) ?>">
+                </a>
+
+                <div class="prodDesc">
+                    <p><?php echo $product->getShortDescription() ?></p>
+                    <span><?php echo $product->getFormatedPrice() ?></span>
+                </div>
+
+            </li>
+
+        <?php endforeach; ?>
+
+    </ul>
+
+<?php endif; ?>

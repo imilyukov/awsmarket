@@ -1,0 +1,15 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: imilyukov
+ * Date: 4/21/13
+ * Time: 10:09 PM
+ * To change this template use File | Settings | File Templates.
+ */
+$helper    = $this->helper('catalog/output');
+$category  = $this->getCurrentCategory();
+?>
+
+<h1><?php echo $helper->categoryAttribute($category, $category->getName(), 'name') ?></h1>
+
+<?php echo $this->getProductListHtml() ?>

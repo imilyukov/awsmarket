@@ -1,0 +1,37 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: imilyukov
+ * Date: 4/21/13
+ * Time: 10:35 PM
+ * To change this template use File | Settings | File Templates.
+ */
+
+$attributes = $this->getAllAttributes();
+?>
+
+<?php if ( $attributes->count() ): ?>
+
+    <div class="sortingMenu">
+
+    <?php foreach($attributes as $attribute): ?>
+
+        <select>
+
+            <option><?php echo $attribute->getDefault() ?></option>
+
+            <?php foreach ($attribute->getOptions() as $option): ?>
+
+                <option value="<?php echo $option['value'] ?>" label="<?php echo $option['label'] ?>">
+                    <?php echo $option['label'] ?>
+                </option>
+
+            <?php endforeach; ?>
+
+        </select>
+
+    <?php endforeach; ?>
+
+    </div>
+
+<?php endif; ?>

@@ -24,6 +24,11 @@
     <file path="/main.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365985226415" ignored="false" />
     <file path="/browser-fix.js" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365985168991" ignored="false" />
     <file path="/random.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1366564323865" ignored="false" />
+    <file path="/catalog.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1366580514333" ignored="false" />
+    <file path="/view.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1366571858669" ignored="false" />
+    <file path="/list.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1366583793905" ignored="false" />
+    <file path="/SortingMenu.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1366584221566" ignored="false" />
+    <file path="/sorting-menu.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1366582134262" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,93 +48,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/page.xml">
+      <file leaf-file-name="catalog.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/catalog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+            <state line="17" column="73" selection-start="712" selection-end="724" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml">
+      <file leaf-file-name="catalog.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/catalog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="2047" selection-end="2047" vertical-scroll-proportion="0.0">
+            <state line="189" column="105" selection-start="10588" selection-end="10588" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart/sidebar/default.phtml">
+      <file leaf-file-name="list.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="8" column="57" selection-start="224" selection-end="224" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cms.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/cms.xml">
+      <file leaf-file-name="SortingMenu.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/code/local/Mage/Catalog/Block/Product/List/SortingMenu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="106" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
+            <state line="20" column="5" selection-start="500" selection-end="500" vertical-scroll-proportion="0.37220845">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css">
+      <file leaf-file-name="List.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/List.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="34" column="63" selection-start="1164" selection-end="1164" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upsell.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list/upsell.phtml">
+      <file leaf-file-name="Abstract.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/Abstract.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="38" selection-start="1063" selection-end="1070" vertical-scroll-proportion="-2.5">
+            <state line="34" column="15" selection-start="1133" selection-end="1133" vertical-scroll-proportion="310.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hot-sales.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/html/hot-sales.phtml">
+      <file leaf-file-name="Abstract.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="6" selection-start="996" selection-end="996" vertical-scroll-proportion="-25.0">
+            <state line="211" column="60" selection-start="4676" selection-end="4701" vertical-scroll-proportion="-11.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sorting-menu.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list/sorting-menu.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="16" selection-start="659" selection-end="659" vertical-scroll-proportion="-16.25">
               <folding>
-                <element signature="e#6#165#0" expanded="true" />
+                <element signature="e#6#166#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2columns-right.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/2columns-right.phtml">
+      <file leaf-file-name="Product.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="0" selection-start="2081" selection-end="2081" vertical-scroll-proportion="-0.625">
-              <folding />
+            <state line="828" column="36" selection-start="21951" selection-end="21958" vertical-scroll-proportion="-9.510204">
+              <folding>
+                <element signature="e#6#962#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart/sidebar.phtml">
+      <file leaf-file-name="list.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="22" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.0">
+            <state line="49" column="21" selection-start="1774" selection-end="1814" vertical-scroll-proportion="-13.75">
               <folding />
             </state>
           </provider>
@@ -145,22 +152,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/html/footer.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/html/header.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/2columns-right.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart/sidebar.phtml" />
-        <option value="$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/page.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/html/breadcrumbs.phtml" />
         <option value="$PROJECT_DIR$/lib/Varien/Data/Form/Element/Editor.php" />
         <option value="$PROJECT_DIR$/skin/adminhtml/awsmarket/default/js/browser-fix.js" />
         <option value="$PROJECT_DIR$/app/design/adminhtml/awsmarket/default/layout/main.xml" />
         <option value="$PROJECT_DIR$/js/mage/adminhtml/browser.js" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list/random.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/html/hot-sales.phtml" />
         <option value="$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/cms.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/category/view.phtml" />
+        <option value="$PROJECT_DIR$/skin/frontend/awsmarket/default/css/chosen.css" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/catalog.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list/sorting-menu.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list/random.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/Mage/Catalog/Block/Product/List/SortingMenu.php" />
       </list>
     </option>
   </component>
@@ -1121,10 +1128,6 @@
               <option name="myItemId" value="product" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1161,10 +1164,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="navigation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1249,6 +1248,56 @@
               <option name="myItemId" value="code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1269,6 +1318,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XmlConnect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1358,7 +1437,151 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Helper" />
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Catalog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Product" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Attribute" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1404,13 +1627,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25769854" sideWeight="0.67007965" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.273906" sideWeight="0.67007965" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1486,116 +1709,118 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/List.php">
+    <entry file="file://$PROJECT_DIR$/lib/Varien/Object.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="44" selection-start="1617" selection-end="1638" vertical-scroll-proportion="0.0">
+        <state line="97" column="20" selection-start="2344" selection-end="2344" vertical-scroll-proportion="0.2853437">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Resource/Product/Attribute/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="682" column="38" selection-start="18346" selection-end="18364" vertical-scroll-proportion="14.061225">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.5680933">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Resource/Eav/Attribute.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="379" column="5" selection-start="11831" selection-end="11831" vertical-scroll-proportion="-222.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Eav/Model/Entity/Attribute/Source/Table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="33" selection-start="1394" selection-end="1407" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Varien/Data/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="749" column="20" selection-start="16839" selection-end="16846" vertical-scroll-proportion="-5.367347">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list/random.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="59" selection-start="341" selection-end="341" vertical-scroll-proportion="-7.5">
+        <state line="19" column="16" selection-start="591" selection-end="591" vertical-scroll-proportion="-11.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/html/wrapper.phtml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/catalog.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="189" column="105" selection-start="10588" selection-end="10588" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/page.xml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/catalog.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+        <state line="17" column="73" selection-start="712" selection-end="724" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="2047" selection-end="2047" vertical-scroll-proportion="0.0">
+        <state line="49" column="21" selection-start="1774" selection-end="1814" vertical-scroll-proportion="-13.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/oauth/customer/token/list.phtml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="8" column="57" selection-start="224" selection-end="224" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/new.phtml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list/sorting-menu.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="71" selection-start="2183" selection-end="2183" vertical-scroll-proportion="0.27237353">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/list/upsell.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="38" selection-start="1063" selection-end="1070" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/html/hot-sales.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="6" selection-start="996" selection-end="996" vertical-scroll-proportion="-25.0">
+        <state line="26" column="16" selection-start="659" selection-end="659" vertical-scroll-proportion="-16.25">
           <folding>
-            <element signature="e#6#165#0" expanded="true" />
+            <element signature="e#6#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/2columns-right.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/List.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="2081" selection-end="2081" vertical-scroll-proportion="-0.625">
+        <state line="34" column="63" selection-start="1164" selection-end="1164" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart/sidebar/default.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Block/Product/Abstract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="34" column="15" selection-start="1133" selection-end="1133" vertical-scroll-proportion="310.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart/sidebar.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+        <state line="828" column="36" selection-start="21951" selection-end="21958" vertical-scroll-proportion="-9.510204">
+          <folding>
+            <element signature="e#6#962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="211" column="60" selection-start="4676" selection-end="4701" vertical-scroll-proportion="-11.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js">
+    <entry file="file://$PROJECT_DIR$/app/code/local/Mage/Catalog/Block/Product/List/SortingMenu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="22" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/cms.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="106" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="20" column="5" selection-start="500" selection-end="500" vertical-scroll-proportion="0.37220845">
           <folding />
         </state>
       </provider>
