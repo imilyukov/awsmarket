@@ -1,0 +1,31 @@
+<?php
+$productCollection = $this->getLoadedProductCollection();
+$helper = $this->helper('catalog/product');
+$helperImage = $this->helper('catalog/image');
+//var_dump($productCollection);die();
+?>
+
+<?php if ( $productCollection->count() ) : ?>
+
+    <div class="promo">
+        <ul>
+
+        <?php foreach ( $productCollection as $product ) : if ( (int)++$index > $this->getNumProducts() ) break; ?>
+
+
+            <li>
+
+                <a href=""><img src="<?php echo $product->getThumbnailUrl(110, 90) ?>" alt="" /></a>
+
+                <h5><?php echo $product->getName() ?></h5>
+
+                <p class="price"><?php echo $product->getFormatedPrice() ?></p>
+
+            </li>
+
+        <?php endforeach; ?>
+
+        </ul>
+    </div>
+
+<?php endif; ?>

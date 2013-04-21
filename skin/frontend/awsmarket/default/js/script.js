@@ -43,7 +43,7 @@
             btnNext: ".next",
             btnPrev: ".prev",
             vertical: true,
-            visible: 2,
+            visible: 1,
             circular: false
         });
 
