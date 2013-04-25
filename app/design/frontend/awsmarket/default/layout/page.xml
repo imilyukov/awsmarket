@@ -41,6 +41,7 @@
                 <action method="addItem"><type>skin_js</type><name>lib/jquery-1.9.1.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>lib/chosen.jquery.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>lib/jcarousellite_1.0.1.min.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>lib/jquery.icheck.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/script.js</name></action>
             </block>
 

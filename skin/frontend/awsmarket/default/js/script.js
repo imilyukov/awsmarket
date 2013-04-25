@@ -2,14 +2,11 @@
     $.noConflict();
     $(window).load(function() {
 
-
-
         // Функция выпадающего меню
 
         $('.mainNav > ul > li').hover(function(){
             $(this).children('ul').slideToggle();
         });
-
 
         // Функция очистки поля поиска при фокусе
 
@@ -37,8 +34,6 @@
             $('#query').autoClear();
         });
 
-
-
         $(".productSlider").jCarouselLite({
             btnNext: ".next",
             btnPrev: ".prev",
@@ -47,8 +42,18 @@
             circular: false
         });
 
+        $(".sortingMenu select, .checkout select").chosen();
 
-        $(".sortingMenu select").chosen();
+        $(".question").click(function(e){
+            e.preventDefault();
+            $(this).toggleClass('active');
+            $(this).next('.answer').slideToggle('fast');
+        });
+
+        $('input').iCheck({
+            checkboxClass: 'icheckbox_flat',
+            radioClass: 'iradio_flat'
+        });
 
     });
 })(jQuery);

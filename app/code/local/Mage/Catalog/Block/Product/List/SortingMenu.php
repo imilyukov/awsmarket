@@ -1,6 +1,8 @@
 <?php
 /**
  * Class Mage_Catalog_Block_Product_List_SortingMenu
+ *
+ * @author imilyukov
  */
 class Mage_Catalog_Block_Product_List_SortingMenu extends Mage_Core_Block_Template
 {
