@@ -51,10 +51,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contacts.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="contacts.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/contacts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.0">
+            <state line="32" column="14" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.100367196">
               <folding />
             </state>
           </provider>
@@ -69,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/local/Aws/Page/etc/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="182" selection-end="186" vertical-scroll-proportion="0.21686748">
+            <state line="12" column="17" selection-start="182" selection-end="186" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,15 +91,6 @@
         <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/html/breadcrumbs.phtml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="25" column="21" selection-start="990" selection-end="990" vertical-scroll-proportion="-1.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Object.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Varien/Object.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="504" column="27" selection-start="12845" selection-end="12849" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1752,13 +1743,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/Varien/Object.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="504" column="27" selection-start="12845" selection-end="12849" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/contacts/form.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="216" selection-start="2362" selection-end="2391" vertical-scroll-proportion="0.0">
@@ -1798,13 +1782,6 @@
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/contacts/form.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="38" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/contacts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1853,7 +1830,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/local/Aws/Page/etc/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="182" selection-end="186" vertical-scroll-proportion="0.21686748">
+        <state line="12" column="17" selection-start="182" selection-end="186" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/20130428_aws_schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/contacts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="14" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.100367196">
           <folding />
         </state>
       </provider>
