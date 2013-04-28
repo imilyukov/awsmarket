@@ -1,69 +1,63 @@
-<div class="cart not-empty">
+<?php $recentItems = $this->getRecentItems(); ?>
+<div class="cart <?php count($recentItems) ? 'not-empty' : '' ?>">
 
     <div class="cartInner">
-        <h4><a href="">SHOPPING BAG</a></h4>
+        <h4><a href="<?php echo $this->getUrl('checkout/cart') ?>"><?php echo $this->__('SHOPPING BAG') ?></a></h4>
 
+        <?php if ( count($recentItems) ): ?>
         <div class="productSliderWrapper">
             <button class="prev"></button>
             <button class="next"></button>
 
-            <div class="productSlider" style="visibility: visible; overflow: hidden; position: relative; z-index: 2; left: 0px; height: 228px;">
-                <ul style="margin: 0px; padding: 0px; position: relative; list-style-type: none; z-index: 1; height: 456px; top: 0px;">
-                    <li style="overflow: hidden; float: none; width: 266px; height: 90px;">
-                        <img alt="" src="pictures/7.png">
-                        <strong>10 €</strong>
-                        T-Shirt With Scoop Neck<br>
-                        size: M<br>
-                        colour: green<br>
-                        Qty: 1<br>
-                        <a href="" class="delItem"></a>
+            <div class="productSlider">
+                <ul>
+                    <?php foreach($recentItems as $recentItem): ?>
+                    <li>
+
+                        <?php echo $this->getItemHtml($recentItem) ?>
+
                     </li>
-                    <li style="overflow: hidden; float: none; width: 266px; height: 90px;">
-                        <img alt="" src="pictures/7.png">
-                        <strong>10 €</strong>
-                        T-Shirt With Scoop Neck<br>
-                        size: M<br>
-                        colour: green<br>
-                        Qty: 1<br>
-                        <a href="" class="delItem"></a>
-                    </li>
-                    <li style="overflow: hidden; float: none; width: 266px; height: 90px;">
-                        <img alt="" src="pictures/7.png">
-                        <strong>10 €</strong>
-                        T-Shirt With Scoop Neck<br>
-                        size: M<br>
-                        colour: green<br>
-                        Qty: 1<br>
-                        <a href="" class="delItem"></a>
-                    </li>
-                    <li style="overflow: hidden; float: none; width: 266px; height: 90px;">
-                        <img alt="" src="pictures/7.png">
-                        <strong>10 €</strong>
-                        T-Shirt With Scoop Neck<br>
-                        size: M<br>
-                        colour: green<br>
-                        Qty: 1<br>
-                        <a href="" class="delItem"></a>
-                    </li>
+                    <?php endforeach; ?>
                 </ul>
             </div>
         </div>
+
         <table>
             <tbody><tr>
-                <td>Subtotal products</td>
-                <td>00.00 €</td>
+                <td><?php echo $this->__('Subtotal products') ?></td>
+                <td><?php echo Mage::helper('checkout')->formatPrice($this->getSubtotal()) ?></td>
             </tr>
             <tr>
-                <td>+ delivvery fee</td>
+                <td><?php echo $this->__('+ delivvery fee') ?></td>
                 <td>00.000 €</td>
             </tr>
             <tr class="total">
-                <td>TOTAL</td>
-                <td>00.000 €</td>
+                <td><?php echo $this->__('TOTAL') ?></td>
+                <td><?php echo Mage::helper('checkout')->formatPrice($this->getSubtotal()) ?></td>
             </tr>
-            </tbody></table>
-        <a href="" class="viewBag">VIEW BAG</a>
-        <a href="" class="payNow">PAY NOW</a>
+            </tbody>
+        </table>
+
+        <a href="<?php echo $this->getUrl('checkout/cart') ?>" class="viewBag"><?php echo $this->__('VIEW BAG') ?></a>
+        <a href="<?php echo $this->getCheckoutUrl() ?>" class="payNow"><?php echo $this->__('PAY NOW') ?></a>
+
+        <?php else: ?>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td><?php echo $this->__('0 products(s) in your bag') ?></td>
+                    <td><?php echo $this->__('€00.00') ?></td>
+                </tr>
+                <tr>
+                    <td><?php echo $this->__('Subtotal products') ?></td>
+                    <td><?php echo Mage::helper('checkout')->formatPrice($this->getSubtotal()) ?></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <?php endif; ?>
+
     </div>
 
 </div>

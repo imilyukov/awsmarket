@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Aws_Page>
+            <active>true</active>
+            <codepool>local</codepool>
+            <depends>
+                <Mage_Core />
+                <Mage_Page />
+            </depends>
+        </Aws_Page>
+    </modules>
+</config>

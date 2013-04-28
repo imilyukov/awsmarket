@@ -38,7 +38,7 @@
             btnNext: ".next",
             btnPrev: ".prev",
             vertical: true,
-            visible: 1,
+            visible: 2,
             circular: false
         });
 
@@ -53,6 +53,13 @@
         $('input').iCheck({
             checkboxClass: 'icheckbox_flat',
             radioClass: 'iradio_flat'
+        });
+
+        // add handler for filter form
+        $('#sup__form_filter select').on('change', function(e) {
+
+            console.log($(this).val());
+            $(this).closest('form').trigger('submit');
         });
 
     });

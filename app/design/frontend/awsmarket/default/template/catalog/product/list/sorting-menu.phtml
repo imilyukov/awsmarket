@@ -14,16 +14,19 @@ $attributes = $this->getAllAttributes();
 
     <div class="sortingMenu">
 
+    <form id="sup__form_filter" method="get" action="">
+
     <?php foreach($attributes as $attribute): ?>
 
-        <select>
+        <select name="<?php echo $attribute->getName() ?>">
 
-            <option><?php echo $attribute->getDefault() ?></option>
+            <option value=""><?php echo $attribute->getDefault() ?></option>
 
             <?php foreach ($attribute->getOptions() as $option): ?>
 
-                <option value="<?php echo $option['value'] ?>" label="<?php echo $option['label'] ?>">
-                    <?php echo $option['label'] ?>
+                <option<?php echo $option->getSelected() ? ' selected="selected" ' : '' ?>
+                        value="<?php echo $option->getValue() ?>" label="<?php echo $option->getLabel() ?>">
+                    <?php echo $option->getLabel() ?>
                 </option>
 
             <?php endforeach; ?>
@@ -31,6 +34,8 @@ $attributes = $this->getAllAttributes();
         </select>
 
     <?php endforeach; ?>
+
+    </form>
 
     </div>
 

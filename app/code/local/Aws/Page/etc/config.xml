@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+
+        <Aws_Page>
+            <version>0.1.0</version>
+        </Aws_Page>
+
+    </modules>
+    <global>
+        <blocks>
+            <page>
+                <rewrite>
+                    <html_breadcrumbs>Aws_Page_Block_Html_Breadcrumbs</html_breadcrumbs>
+                </rewrite>
+            </page>
+        </blocks>
+    </global>
+</config>
