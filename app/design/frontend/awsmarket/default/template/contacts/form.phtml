@@ -1,0 +1,35 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: imilyukov
+ * Date: 4/28/13
+ * Time: 7:29 PM
+ * To change this template use File | Settings | File Templates.
+ */ ?>
+
+<?php echo $this->getChild('cms_page') ?>
+
+<div class="contact-form-wrap">
+    <form id="contactForm" action="<?php echo $this->getFormAction(); ?>" method="post">
+        <div class="c-name">
+            <label for="person-name">Name<span>*</span></label>
+            <input class="required-entry" type="text" id="person-name" name="person-name" />
+        </div>
+        <div class="c-mail">
+            <label for="person-mail">E-mail<span>*</span></label>
+            <input class="required-entry validate-email" type="text" id="erson-mail" name="erson-mail" />
+        </div>
+        <div class="c-comment">
+            <label for="person-comment">Comment<span>*</span></label>
+            <textarea class="required-entry" id="person-comment" name="person-comment"></textarea>
+        </div>
+        <p class="required"><span>*</span> Required fields</p>
+        <input type="submit" value="SEND" />
+    </form>
+</div>
+
+<script type="text/javascript">
+    //&lt;![CDATA[
+    var contactForm = new VarienForm('contactForm', true);
+    //]]&gt;
+</script>

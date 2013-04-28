@@ -28,13 +28,19 @@ class Mage_Catalog_Block_Product_List_SortingMenu extends Mage_Core_Block_Templa
         $sortAttributes = $request->getParam('sort', array());
         foreach ($sortAttributes as $attribute => $direction) {
 
-            $productCollection->addAttributeToSort($attribute, $direction);
+            if ( !empty($direction) ) {
+
+                $productCollection->addAttributeToSort($attribute, $direction);
+            } // if
         } // foreach
 
         $filterAttributes = $request->getParam('filter', array());
         foreach ($filterAttributes as $attribute => $value) {
 
-            $productCollection->addAttributeToFilter($attribute, $value);
+            if ( !empty($value) ) {
+
+                $productCollection->addAttributeToFilter($attribute, $value);
+            } // if
         } // foreach
 
         parent::setParentBlock($parentBlock);
@@ -53,19 +59,27 @@ class Mage_Catalog_Block_Product_List_SortingMenu extends Mage_Core_Block_Templa
             $this->_sortAttributes = new Varien_Data_Collection();
         }
 
+        $request = $this->getRequest();
+        $sortAttributes = $request->getParam('sort', array());
+
+        $optionCollection = new Varien_Data_Collection();
+        $optionCollection->addItem(new Varien_Object(array(
+            'label' => 'ascending ' . $type,
+            'value' => 'asc',
+            'selected' => array_key_exists($type, $sortAttributes) && 'asc' == $sortAttributes[$type],
+        )));
+
+        $optionCollection->addItem(new Varien_Object(array(
+            'label' => 'descending ' . $type,
+            'value' => 'desc',
+            'selected' => array_key_exists($type, $sortAttributes) && 'desc' == $sortAttributes[$type],
+        )));
+
         $attributeInfo = new Varien_Object(array(
+            'name' => 'sort[' . $type . ']',
             'type' => $type,
             'default' => $default,
-            'options' => array(
-                array(
-                    'label' => 'ascending ' . $type,
-                    'value' => 'asc',
-                ),
-                array(
-                    'label' => 'descending ' . $type,
-                    'value' => 'desc',
-                ),
-            ),
+            'options' => $optionCollection,
         ));
 
         $this->_sortAttributes->addItem($attributeInfo);
@@ -88,14 +102,24 @@ class Mage_Catalog_Block_Product_List_SortingMenu extends Mage_Core_Block_Templa
         $attribute = $productModel->getResource()->getAttribute($type);
         $attributeOptions = $attribute->getSource()->getAllOptions(false);
 
-        $attributeOptions = array(
-            'label' => $default,
-            'value' => 0,
-        ) + $attributeOptions;
+        $request = $this->getRequest();
+        $filterAttributes = $request->getParam('filter', array());
+
+        $optionCollection = new Varien_Data_Collection();
+        foreach($attributeOptions as $attributeOption) {
+
+            $attributeOption = new Varien_Object($attributeOption);
+            $selected = array_key_exists($type, $filterAttributes)
+                && $attributeOption->getValue() == $filterAttributes[$type];
+            $attributeOption->setSelected($selected);
+            $optionCollection->addItem($attributeOption);
+        } // foreach
+
         $attributeInfo = new Varien_Object(array(
+            'name' => 'filter[' . $type . ']',
             'type' => $type,
             'default' => $default,
-            'options' => $attributeOptions,
+            'options' => $optionCollection,
         ));
 
         $this->_filterAttributes->addItem($attributeInfo);

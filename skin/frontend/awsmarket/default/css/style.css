@@ -54,7 +54,7 @@ a:hover {
 	min-height: 100%
 }
 .content {
-	padding-bottom: 211px;
+	/* padding-bottom: 211px; */
 	width: 100%;
 }
 .mainNav .homePage a,
@@ -865,6 +865,7 @@ header {
 	vertical-align: middle;
 }
 .productListInner {
+    min-height: 400px;
 	padding-top: 12px;
 	overflow: hidden;
 	width: 687px;
