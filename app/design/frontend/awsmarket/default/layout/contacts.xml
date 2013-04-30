@@ -27,8 +27,12 @@
 -->
 <layout version="0.1.0">
     <default>
-        <reference name="footer_links">
-            <action method="addLink" translate="label title" module="contacts" ifconfig="contacts/contacts/enabled"><label>Contact Us</label><url>contacts</url><title>Contact Us</title><prepare>true</prepare></action>
+        <reference name="footer_links_about_as">
+            <action method="addLink">
+                <label>contacts us</label>
+                <url>/contacts</url>
+                <title>contacts us</title>
+            </action>
         </reference>
     </default>
 
@@ -42,7 +46,6 @@
             <action method="setHeaderTitle" translate="title" module="contacts"><title>Contact Us</title></action>
         </reference>
         <reference name="breadcrumbs">
-
             <action method="addCrumb">
                 <crumbName>Home</crumbName>
                 <crumbInfo><label>Home</label><title>Home</title><link>/</link></crumbInfo>
@@ -63,13 +66,12 @@
                 <action method="setElementClass"><value>contact-form</value></action>
                 <action method="setHtmlTagName"><value>section</value></action>
                 <block type="core/template" name="contactForm" template="contacts/form.phtml">
-                    <block type="cms/page" name="cms_page">
-
-                        <action method="setPageId"><value>10</value></action>
-
+                    <block type="cms/block" name="contact_us">
+                        <action method="setBlockId"><block_id>contact_us</block_id></action>
                     </block>
                 </block>
             </block>
         </reference>
+
     </contacts_index_index>
 </layout>

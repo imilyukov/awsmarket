@@ -52,6 +52,7 @@
                     <label>Navigation Bar</label>
                     <block type="catalog/navigation" name="catalog.topnav" template="catalog/navigation/top.phtml"/>
                 </block>
+                <block type="page/template_links" name="top.links" as="topLinks" template="page/template/links/account.phtml"/>
                 <block type="core/template" name="top.search" as="topSearch" template="catalogsearch/form.mini.phtml"/>
             </block>
 
@@ -73,8 +74,50 @@
             <!-- The Footer -->
             <block type="page/html_footer" name="footer" as="footer" template="page/html/footer.phtml">
                 <label>Footer</label>
-                <block type="cms/block" name="cms_footer_links" as="cms_footer_links" before="footer_links">
 
+                <block type="page/template_links" name="footer_links_about_as" as="footer_links_about_as" template="page/template/links.phtml">
+                    <action method="addLink">
+                        <label>ABOUT US</label>
+                        <url></url>
+                        <title>ABOUT US</title>
+                        <prepare>false</prepare>
+                        <urlparams>null</urlparams>
+                        <position>null</position>
+                        <liparams>
+                            <class>listHeader</class>
+                        </liparams>
+                    </action>
+                </block>
+
+                <block type="page/template_links" name="footer_links_payments" as="footer_links_payments" template="page/template/links.phtml">
+                    <action method="addLink">
+                        <label><![CDATA[PAYMENTS & SHIPPING]]></label>
+                        <url></url>
+                        <title><![CDATA[PAYMENTS & SHIPPING]]></title>
+                        <prepare>false</prepare>
+                        <urlParams>null</urlParams>
+                        <position>null</position>
+                        <liParams>
+                            <class>listHeader</class>
+                        </liParams>
+                    </action>
+                </block>
+
+                <block type="page/template_links" name="footer_links_partners" as="footer_links_partners" template="page/template/links.phtml">
+                    <action method="addLink">
+                        <label>OUR PARTNERS</label>
+                        <url></url>
+                        <title>OUR PARTNERS</title>
+                        <prepare>false</prepare>
+                        <urlParams>null</urlParams>
+                        <position>null</position>
+                        <liParams>
+                            <class>listHeader</class>
+                        </liParams>
+                    </action>
+                </block>
+
+                <block type="cms/block" name="cms_footer_links" as="cms_footer_links" after="footer_links_partners">
                     <action method="setBlockId"><block_id>footer_links</block_id></action>
                 </block>
             </block>

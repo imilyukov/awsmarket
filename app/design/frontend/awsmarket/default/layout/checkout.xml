@@ -34,6 +34,10 @@
 
     <default>
 
+        <reference name="head">
+            <action method="addCss"><stylesheet>css/chosen-checkout.css</stylesheet></action>
+        </reference>
+
         <reference name="right">
             <remove name="right.poll" />
             <remove name="catalog.compare.sidebar" />
@@ -48,6 +52,119 @@
         </reference>
 
     </default>
+
+    <checkout_cart_index translate="label">
+        <label>Shopping Cart</label>
+        <remove name="right"/>
+        <remove name="left"/>
+        <!-- Mage_Checkout -->
+
+        <reference name="content">
+            <block type="checkout/cart" name="checkout.cart">
+                <action method="setCartTemplate"><value>checkout/cart.phtml</value></action>
+                <action method="setEmptyTemplate"><value>checkout/cart/noItems.phtml</value></action>
+                <action method="chooseTemplate"/>
+                <action method="addItemRender"><type>simple</type><block>checkout/cart_item_renderer</block><template>checkout/cart/item/default.phtml</template></action>
+                <action method="addItemRender"><type>grouped</type><block>checkout/cart_item_renderer_grouped</block><template>checkout/cart/item/default.phtml</template></action>
+                <action method="addItemRender"><type>configurable</type><block>checkout/cart_item_renderer_configurable</block><template>checkout/cart/item/default.phtml</template></action>
+
+                <block type="core/text_list" name="checkout.cart.top_methods" as="top_methods" translate="label">
+                    <label>Payment Methods Before Checkout Button</label>
+                    <block type="checkout/onepage_link" name="checkout.cart.methods.onepage" template="checkout/onepage/link.phtml"/>
+                </block>
+
+                <block type="page/html_wrapper" name="checkout.cart.form.before" as="form_before" translate="label">
+                    <label>Shopping Cart Form Before</label>
+                </block>
+
+                <block type="core/text_list" name="checkout.cart.methods" as="methods" translate="label">
+                    <label>Payment Methods After Checkout Button</label>
+                    <block type="checkout/onepage_link" name="checkout.cart.methods.onepage" template="checkout/onepage/link.phtml"/>
+                    <block type="checkout/multishipping_link" name="checkout.cart.methods.multishipping" template="checkout/multishipping/link.phtml"/>
+                </block>
+
+                <block type="checkout/cart_coupon" name="checkout.cart.coupon" as="coupon" template="checkout/cart/coupon.phtml"/>
+                <block type="checkout/cart_shipping" name="checkout.cart.shipping" as="shipping" template="checkout/cart/shipping.phtml"/>
+                <block type="checkout/cart_crosssell" name="checkout.cart.crosssell" as="crosssell" template="checkout/cart/crosssell.phtml"/>
+
+                <block type="checkout/cart_totals" name="checkout.cart.totals" as="totals" template="checkout/cart/totals.phtml"/>
+            </block>
+        </reference>
+        <block type="core/text_list" name="additional.product.info" translate="label">
+            <label>Additional Product Info</label>
+        </block>
+    </checkout_cart_index>
+
+    <checkout_cart_configure translate="label">
+        <label>Configure Cart Item</label>
+        <update handle="catalog_product_view"/>
+        <reference name="product.info">
+            <block type="checkout/cart_item_configure" name="checkout.cart.item.configure.block"></block>
+        </reference>
+    </checkout_cart_configure>
+
+    <!--
+    One page checkout main layout
+    -->
+
+    <checkout_onepage_index translate="label">
+        <label>One Page Checkout</label>
+        <!-- Mage_Checkout -->
+
+        <reference name="right">
+            <remove name="cart_sidebar"/>
+        </reference>
+
+        <reference name="breadcrumbs">
+            <action method="addCrumb">
+                <crumbName>Home</crumbName>
+                <crumbInfo><label>Home</label><title>Home</title><link>/</link></crumbInfo>
+            </action>
+            <action method="addCrumb">
+                <crumbName>checkout</crumbName>
+                <crumbInfo>
+                    <label>Checkout</label>
+                    <title>Checkout</title>
+                    <readonly>true</readonly>
+                    <last>true</last>
+                </crumbInfo>
+            </action>
+        </reference>
+
+        <reference name="content">
+
+            <action method="setElementClass"><value>content-page-checkout</value></action>
+            <action method="setHtmlTagName"><value>section</value></action>
+
+            <block type="page/html_wrapper" name="cms.wrapper" translate="label">
+                <label>CMS Content Wrapper</label>
+                <action method="setElementClass"><value>checkout</value></action>
+                <action method="setHtmlTagName"><value>section</value></action>
+
+                <block type="checkout/onepage" name="checkout.onepage" template="checkout/onepage.phtml">
+                    <block type="checkout/onepage_login" name="checkout.onepage.login" as="login" template="checkout/onepage/login.phtml">
+                        <block type="page/html_wrapper" name="checkout.onepage.login.before" as="login_before" translate="label">
+                            <label>Login/Registration Before</label>
+                            <action method="setMayBeInvisible"><value>1</value></action>
+                        </block>
+                    </block>
+                    <block type="checkout/onepage_billing" name="checkout.onepage.billing" as="billing" template="checkout/onepage/billing.phtml"/>
+                    <block type="checkout/onepage_shipping" name="checkout.onepage.shipping" as="shipping" template="checkout/onepage/shipping.phtml"/>
+                    <block type="checkout/onepage_shipping_method" name="checkout.onepage.shipping_method" as="shipping_method" template="checkout/onepage/shipping_method.phtml">
+                        <block type="checkout/onepage_shipping_method_available" name="checkout.onepage.shipping_method.available" as="available" template="checkout/onepage/shipping_method/available.phtml"/>
+                        <block type="checkout/onepage_shipping_method_additional" name="checkout.onepage.shipping_method.additional" as="additional" template="checkout/onepage/shipping_method/additional.phtml"/>
+                    </block>
+                    <block type="checkout/onepage_payment" name="checkout.onepage.payment" as="payment" template="checkout/onepage/payment.phtml">
+                        <block type="checkout/onepage_payment_methods" name="checkout.payment.methods" as="methods" template="checkout/onepage/payment/methods.phtml">
+                            <action method="setMethodFormTemplate"><method>purchaseorder</method><template>payment/form/purchaseorder.phtml</template></action>
+                        </block>
+                    </block>
+                    <block type="checkout/onepage_review" name="checkout.onepage.review" as="review" template="checkout/onepage/review.phtml"/>
+                </block>
+
+            </block>
+        </reference>
+    </checkout_onepage_index>
 
 
 </layout>

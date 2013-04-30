@@ -31,6 +31,30 @@
  * @see Mage_Customer_Block_Form_Login
  */
 ?>
+
+<div class="page-title">
+    <h1><?php echo $this->__('Login or Create an Account') ?></h1>
+</div>
+
+<div class="contact-form-wrap">
+    <form id="contactForm" action="<?php echo $this->getFormAction(); ?>" method="post">
+        <div class="c-name">
+            <label for="person-name">Name<span>*</span></label>
+            <input class="required-entry" type="text" id="person-name" name="person-name" />
+        </div>
+        <div class="c-mail">
+            <label for="person-mail">E-mail<span>*</span></label>
+            <input class="required-entry validate-email" type="text" id="erson-mail" name="erson-mail" />
+        </div>
+        <div class="c-comment">
+            <label for="person-comment">Comment<span>*</span></label>
+            <textarea class="required-entry" id="person-comment" name="person-comment"></textarea>
+        </div>
+        <p class="required"><span>*</span> Required fields</p>
+        <input type="submit" value="SEND" />
+    </form>
+</div>
+
 <div class="account-login">
     <div class="page-title">
         <h1><?php echo $this->__('Login or Create an Account') ?></h1>

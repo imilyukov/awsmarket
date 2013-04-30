@@ -1,5 +1,38 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
+    <default>
+        <reference name="footer_links_about_as">
+            <action method="addLink">
+                <label>about superior</label>
+                <url>/about-superior.html</url>
+                <title>about superior</title>
+            </action>
+
+            <action method="addLink">
+                <label>FAQ`s</label>
+                <url>/faq.html</url>
+                <title>FAQ`s</title>
+            </action>
+
+        </reference>
+
+        <reference name="footer_links_payments">
+            <action method="addLink">
+                <label>Payment and Shipping</label>
+                <url>/payment-and-shipping.html</url>
+                <title>Payment and Shipping</title>
+            </action>
+        </reference>
+
+        <reference name="footer_links_partners">
+            <action method="addLink">
+                <label>Our partners</label>
+                <url>/our-partners.html</url>
+                <title>Partners</title>
+            </action>
+        </reference>
+
+    </default>
 
     <cms_page translate="label">
         <label>CMS Pages (All)</label>
