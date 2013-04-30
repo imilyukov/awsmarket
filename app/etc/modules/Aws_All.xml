@@ -2,6 +2,10 @@
 
 <config>
     <modules>
+        <Aws_Catalog>
+            <active>true</active>
+            <codepool>local</codepool>
+        </Aws_Catalog>
         <Aws_Page>
             <active>true</active>
             <codepool>local</codepool>

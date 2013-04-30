@@ -1,0 +1,16 @@
+<layout version="0.1.0">
+
+    <!--
+    Default layout, loads most of the pages
+    -->
+
+    <default>
+
+        <reference name="top.links">
+            <action method="removeLinkBlock"><blockName>wishlist_link</blockName></action>
+        </reference>
+
+    </default>
+
+
+</layout>

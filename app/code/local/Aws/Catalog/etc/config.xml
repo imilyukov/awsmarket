@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Aws_Page>
+        <Aws_Catalog>
             <version>0.1.0</version>
-        </Aws_Page>
+        </Aws_Catalog>
     </modules>
     <global>
         <blocks>
-            <page>
-                <class>Aws_Page_Block</class>
+            <catalog>
+                <class>Aws_Catalog_Block</class>
                 <rewrite>
-                    <html_breadcrumbs>Aws_Page_Block_Html_Breadcrumbs</html_breadcrumbs>
+                    <breadcrumbs>Aws_Catalog_Block_Breadcrumbs</breadcrumbs>
                 </rewrite>
-            </page>
+            </catalog>
         </blocks>
     </global>
 </config>

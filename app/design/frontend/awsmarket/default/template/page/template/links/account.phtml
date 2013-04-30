@@ -1,0 +1,27 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: imilyukov
+ * Date: 4/30/13
+ * Time: 3:49 AM
+ * To change this template use File | Settings | File Templates.
+ */
+
+$output = array();
+?>
+
+<?php $_links = $this->getLinks(); ?>
+<?php if(count($_links)>0): ?>
+    <?php foreach($_links as $_link): ?>
+        <?php if ($_link instanceof Mage_Core_Block_Abstract):?>
+            <?php $output[] = $_link->toHtml() ?>
+        <?php else:
+
+            $output[] = '<a href="' . $_link->getUrl() . '" title="' . $_link->getTitle() . '" ' . $_link->getAParams() . '>' . $_link->getLabel() . '</a>';
+
+            endif;?>
+    <?php endforeach; ?>
+
+    <?php echo implode(' / ', $output); ?>
+
+<?php endif; ?>

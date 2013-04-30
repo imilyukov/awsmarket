@@ -1,0 +1,186 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+
+<p class="registered">Already Registered? <a href="">Click here to Login</a></p>
+
+<h1>Billing Information</h1>
+
+<form method="post" action="/" name="regform">
+
+    <p class="log"><span>Login as Guest (or) Register </span>
+        <input name="logtype" type="radio" value="guest" id="guest" /><label for="guest">Guest</label>
+        <input name="logtype" type="radio" value="newuser" id="newuser" checked="checked" /><label for="newuser">Register</label>
+    </p>
+    <p class="first-name">
+        <label for="firstname">First Name<span>*</span></label>
+        <input type="text" id="firstname" name="firstname" />
+    </p>
+    <p class="last-name">
+        <label for="lastname">Last Name<span>*</span></label>
+        <input type="text" id="lastname" name="lastname" />
+    </p>
+    <p class="email-adress">
+        <label for="emailadress">Email Adress<span>*</span></label>
+        <input type="text" id="emailadress" name="emailadress" />
+    </p>
+    <p class="adress">
+        <label for="adress">Address<span>*</span></label>
+        <input type="text" id="adress" name="adress" />
+    </p>
+    <p class="zip-code">
+        <label for="zipcode">Zip/Postal Code<span>*</span></label>
+        <input type="text" id="zipcode" name="zipcode" />
+    </p>
+    <p class="city-name">
+        <label for="cityname">City<span>*</span></label>
+        <input type="text" id="cityname" name="cityname" />
+    </p>
+    <div class="clear-nopadding"></div>
+    <p class="country">
+        <label for="countryname">Country<span>*</span></label>
+        <select name="country" id="countryname">
+            <option value="USA">USA</option>
+            <option value="spain">Spain</option>
+            <option value="italy">Italy</option>
+        </select>
+    </p>
+    <p class="telephone">
+        <label for="telephone-number">Telephone<span>*</span></label>
+        <input type="text" id="telephone-number" name="telephone-number" />
+    </p>
+    <div class="clear-nopadding"></div>
+    <p class="password">
+        <label for="user-password">Password<span>*</span></label>
+        <input type="password" id="user-password" name="user-password" />
+    </p>
+    <p class="confirm-password">
+        <label for="confirmpassword">Confirm Password<span>*</span></label>
+        <input type="password" id="confirmpassword" name="confirmpassword" />
+    </p>
+    <div class="clear-nopadding"></div>
+    <p class="news-leter">
+        <input type="checkbox" id="newsleter" name="newsleter" /><label for="newsleter">Sign Up for Newsleter</label>
+        <input type="checkbox" id="sameadress" name="sameadress" checked="checked" /><label for="sameadress">Ship to same Adress</label>
+    </p>
+    <h4>Shipping Methods</h4>
+    <p class="flat-rate">
+        <span>Flat Rate</span>
+        <input type="checkbox" id="fixedrate" name="fixedrate" checked="checked" /><label for="sameadress">Fixed  5.00 €</label>
+    </p>
+    <h4>Payment Methods</h4>
+    <p class="card-type">
+        <span><input name="card-type" type="radio" value="card-type-1" id="card-type-1" /><label for="card-type-1">Credit Card (Smoovpay)</label></span>
+        <span><input name="card-type" type="radio" value="card-type-2" id="card-type-2" checked="checked" /><label for="card-type-2">Credit Card (saved)</label></span>
+    </p>
+    <p class="select-card-type">
+        <label for="select-card">Credit Card Type<span>*</span></label>
+        <select name="card" id="select-card">
+            <option value="cardtype-1">cardtype-1</option>
+            <option value="cardtype-1">cardtype-2</option>
+            <option value="cardtype-1">cardtype-3</option>
+        </select>
+    </p>
+    <p class="name-on-card">
+        <label for="nameoncard">Name on Card<span>*</span></label>
+        <input type="text" id="nameoncard" name="nameoncard" />
+    </p>
+    <div class="clear-nopadding"></div>
+    <p class="card-number">
+        <label for="cardnumber">Credit Card Number<span>*</span></label>
+        <input type="text" id="cardnumber" name="cardnumber" />
+    </p>
+    <p class="expiration-date">
+        <label for="expirationdate">Expiration Date<span>*</span></label>
+        <select name="expiration-month" id="expirationdate">
+            <option value="month-1">01</option>
+            <option value="month-2">02</option>
+            <option value="month-3">03</option>
+            <option value="month-4">04</option>
+            <option value="month-5">05</option>
+            <option value="month-6">06</option>
+            <option value="month-7">07</option>
+            <option value="month-8">08</option>
+            <option value="month-9">09</option>
+            <option value="month-10">10</option>
+            <option value="month-11">11</option>
+            <option value="month-12">12</option>
+        </select>
+        <select name="expiration-year">
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2019</option>
+        </select>
+    </p>
+    <h4>Order Review</h4>
+    <table class="order-rewiev">
+        <tr>
+            <td>Product Name</td>
+            <td>Size</td>
+            <td>Colour</td>
+            <td>Price</td>
+            <td>Qty</td>
+            <td>Subtotal</td>
+        </tr>
+        <tr>
+            <td>T-Shirt With Scoop Neck</td>
+            <td>XL</td>
+            <td>White</td>
+            <td>10 €</td>
+            <td>1</td>
+            <td>10 €</td>
+        </tr>
+        <tr>
+            <td>T-Shirt With Scoop Neck</td>
+            <td>XL</td>
+            <td>White</td>
+            <td>10 €</td>
+            <td>1</td>
+            <td>10 €</td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="2">Subtotal</td>
+            <td>10 €</td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="2">Grand Total</td>
+            <td>10 €</td>
+        </tr>
+    </table>
+    <p class="user-comments">
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="usercomment"></textarea>
+    </p>
+    <p class="terms">
+        <input type="checkbox" name="terms-agree" id="terms-agree" />I accept the <a href="">Terms and Conditions</a>
+    </p>
+    <input type="submit" value="PLACE ORDER" />
+</form>
