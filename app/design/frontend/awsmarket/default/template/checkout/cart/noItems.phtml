@@ -24,22 +24,13 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-<div class="dashboard">
-    <div class="page-title">
-        <h1><?php echo $this->__('My Dashboard') ?></h1>
-    </div>
+<div class="page-title">
+    <h1><?php echo $this->__('Shopping Cart is Empty') ?></h1>
+</div>
+<div class="cart-empty">
     <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
-    <?php echo $this->getChildHtml('hello') ?>
-    <?php echo $this->getChildHtml('top') ?>
-    <div class="box-account box-info">
-        <div class="box-head">
-            <h4><?php echo $this->__('Account Information') ?></h4>
-        </div>
-        <?php /* Extensions placeholder */ ?>
-        <?php echo $this->getChildHtml('customer.account.dashboard.extra') ?>
-        <?php echo $this->getChildHtml('info') ?>
-        <?php echo $this->getChildHtml('address') ?>
-    </div>
-    <?php echo $this->getChildHtml('info1') ?>
-    <?php echo $this->getChildHtml('info2') ?>
+    <?php echo $this->getChildHtml('checkout_cart_empty_widget'); ?>
+    <p><?php echo $this->__('You have no items in your shopping cart.') ?></p>
+    <p><?php echo $this->__('Click <a href="%s">here</a> to continue shopping.', $this->getContinueShoppingUrl()) ?></p>
+    <?php echo $this->getChildHtml('shopping.cart.table.after'); ?>
 </div>

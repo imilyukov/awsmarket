@@ -507,6 +507,7 @@ header {
 	border: 1px solid #010101;
 	box-shadow: 0 0 0 1px #969696;
 	background: #767676;
+    vertical-align: top;
 }
 .checkout textarea,
 .contact-form-wrap textarea {
@@ -753,7 +754,7 @@ header {
 }
 .main-content p {
     padding-bottom: 27px;
-    text-indent: 9px;
+    /*text-indent: 9px;*/
 }
 .sidebar {
     width: 303px;
@@ -1016,7 +1017,7 @@ footer .footerInner {
 ----------------------------------- */
 .icheckbox_flat,
 .iradio_flat {
-    display: block;
+    display: inline-block;
     margin: 0;
     padding: 0;
     width:11px; 
@@ -1031,4 +1032,85 @@ footer .footerInner {
 
 .iradio_flat.checked {
         background-position: -263px -2px
+}
+
+/* custom select */
+.field {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.field label,
+.wide label {
+    color: #969696;
+    font-size: 11px;
+}
+
+.main-content h1,
+.main-content h4 {
+    border-bottom: 2px dotted #858585;
+    font: italic 18px Georgia,"Bitstream Charter","Century Schoolbook L","Liberation Serif",Times,serif;
+    margin-bottom: 8px;
+    padding-bottom: 15px;
+}
+
+.main-content .checkout {
+    margin-top: 0;
+}
+
+.height-auto {
+    height: auto !important;
+}
+
+.form-list {
+    margin-bottom: 5px;
+}
+
+.form-list li {
+    margin-top: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+table .qty {
+    background: none repeat scroll 0 0 #767676;
+    border: 1px solid #010101;
+    box-shadow: 0 0 0 1px #969696;
+    height: 21px;
+    line-height: 21px;
+    padding: 0 5px;
+    vertical-align: top;
+    width: 20px;
+}
+
+table td {
+    vertical-align: middle;
+}
+
+table tfoot button {
+    margin-top: 10px;
+}
+
+.search-autocomplete {
+    background: #FFF;
+    color: #555555;
+    cursor: pointer;
+    right: 5px !important;
+    width: auto;
+}
+
+.search-autocomplete li {
+    padding: 5px;
+}
+
+.search-autocomplete li:hover {
+    background: #D7E5EF;
+}
+
+.search-autocomplete .amount {
+    margin-right: 10px;
 }

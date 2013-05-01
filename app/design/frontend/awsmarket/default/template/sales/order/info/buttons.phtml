@@ -24,22 +24,15 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-<div class="dashboard">
-    <div class="page-title">
-        <h1><?php echo $this->__('My Dashboard') ?></h1>
-    </div>
-    <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
-    <?php echo $this->getChildHtml('hello') ?>
-    <?php echo $this->getChildHtml('top') ?>
-    <div class="box-account box-info">
-        <div class="box-head">
-            <h4><?php echo $this->__('Account Information') ?></h4>
-        </div>
-        <?php /* Extensions placeholder */ ?>
-        <?php echo $this->getChildHtml('customer.account.dashboard.extra') ?>
-        <?php echo $this->getChildHtml('info') ?>
-        <?php echo $this->getChildHtml('address') ?>
-    </div>
-    <?php echo $this->getChildHtml('info1') ?>
-    <?php echo $this->getChildHtml('info2') ?>
-</div>
+
+<?php  $_order = $this->getOrder() ?>
+<?php if($this->helper('rss/order')->isStatusNotificationAllow()): ?>
+    <a href="<?php echo $this->helper('rss/order')->getStatusHistoryRssUrl($_order) ?>" class="link-rss f-none"><?php echo $this->__('Subscribe to Order Status') ?></a>
+    <span class="separator">|</span>
+<?php endif; ?>
+<?php if ($this->helper('sales/reorder')->canReorder($_order)) : ?>
+    <a href="<?php echo $this->getReorderUrl($_order) ?>" class="link-reorder"><?php echo $this->__('Reorder') ?></a>
+    <span class="separator">|</span>
+<?php endif ?>
+<a href="<?php echo $this->getPrintUrl($_order) ?>" class="link-print" onclick="this.target='_blank';"><?php echo $this->__('Print Order') ?></a>
+<?php echo $this->getChildHtml(); ?>

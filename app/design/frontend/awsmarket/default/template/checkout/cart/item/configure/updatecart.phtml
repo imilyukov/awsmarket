@@ -24,22 +24,16 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-<div class="dashboard">
-    <div class="page-title">
-        <h1><?php echo $this->__('My Dashboard') ?></h1>
+
+<?php $_product = $this->getProduct(); ?>
+<?php $buttonTitle = $this->__('Update Cart'); ?>
+<?php if ($_product->isSaleable()): ?>
+    <div class="add-to-cart">
+        <?php if (!$_product->isGrouped()): ?>
+        <label for="qty"><?php echo $this->__('Qty:') ?></label>
+        <input type="text" name="qty" id="qty" maxlength="12" value="<?php echo $this->getProductDefaultQty() * 1 ?>" title="<?php echo $this->__('Qty') ?>" class="input-text qty" />
+        <?php endif; ?>
+        <button type="button" title="<?php echo $buttonTitle ?>" class="button btn-cart" onclick="productAddToCartForm.submit(this)"><span><span><?php echo $buttonTitle ?></span></span></button>
+        <?php echo $this->getChildHtml('', true, true) ?>
     </div>
-    <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
-    <?php echo $this->getChildHtml('hello') ?>
-    <?php echo $this->getChildHtml('top') ?>
-    <div class="box-account box-info">
-        <div class="box-head">
-            <h4><?php echo $this->__('Account Information') ?></h4>
-        </div>
-        <?php /* Extensions placeholder */ ?>
-        <?php echo $this->getChildHtml('customer.account.dashboard.extra') ?>
-        <?php echo $this->getChildHtml('info') ?>
-        <?php echo $this->getChildHtml('address') ?>
-    </div>
-    <?php echo $this->getChildHtml('info1') ?>
-    <?php echo $this->getChildHtml('info2') ?>
-</div>
+<?php endif; ?>

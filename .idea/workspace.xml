@@ -5,20 +5,20 @@
     <ignored path="awsmarket.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/config.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367273734170" ignored="false" />
-    <file path="/style.css" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367286171618" ignored="false" />
+    <file path="/style.css" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367425184480" ignored="false" />
     <file path="/page.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367283132876" ignored="false" />
     <file path="/2columns-right.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365976187116" ignored="false" />
-    <file path="/a.dummy" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367285067160" ignored="false" />
+    <file path="/a.dummy" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367424424496" ignored="false" />
     <file path="/sidebar.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367164454408" ignored="false" />
     <file path="/grabber.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365863817311" ignored="false" />
     <file path="/footer.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365888894064" ignored="false" />
     <file path="/cms.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367281508383" ignored="false" />
     <file path="/topmenu.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365967804134" ignored="false" />
     <file path="/top.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365970107380" ignored="false" />
-    <file path="/script.js" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367280457870" ignored="false" />
+    <file path="/script.js" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367424988031" ignored="false" />
     <file path="/form.mini.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365973805772" ignored="false" />
     <file path="/header.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365976616998" ignored="false" />
-    <file path="/checkout.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367281201599" ignored="false" />
+    <file path="/checkout.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367421945302" ignored="false" />
     <file path="/breadcrumbs.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367270009794" ignored="false" />
     <file path="/browser.js" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365985384847" ignored="false" />
     <file path="/main.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365985226415" ignored="false" />
@@ -38,10 +38,28 @@
     <file path="/Links.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367282895138" ignored="false" />
     <file path="/wishlist.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367283634719" ignored="false" />
     <file path="/account.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367283967168" ignored="false" />
-    <file path="/customer.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367287195370" ignored="false" />
-    <file path="/login.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367285801714" ignored="false" />
-    <file path="/register.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367286937778" ignored="false" />
+    <file path="/customer.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367419803469" ignored="false" />
+    <file path="/login.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367411179080" ignored="false" />
+    <file path="/register.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367410554530" ignored="false" />
     <file path="/forgotpassword.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367287313651" ignored="false" />
+    <file path="/navigation.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367416131443" ignored="false" />
+    <file path="/downloadable.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367412394232" ignored="false" />
+    <file path="/oauth.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367412462440" ignored="false" />
+    <file path="/edit.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367420102872" ignored="false" />
+    <file path="/sales.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367416518315" ignored="false" />
+    <file path="/history.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367416620522" ignored="false" />
+    <file path="/billing_agreement.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367416917347" ignored="false" />
+    <file path="/recurring_profile.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417025811" ignored="false" />
+    <file path="/review.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417190027" ignored="false" />
+    <file path="/tag.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417262315" ignored="false" />
+    <file path="/newsletter.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417380195" ignored="false" />
+    <file path="/subscribe.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417637963" ignored="false" />
+    <file path="/newsletter.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367418107014" ignored="false" />
+    <file path="/book.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367419509394" ignored="false" />
+    <file path="/cart.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367421405293" ignored="false" />
+    <file path="/reports.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367422212822" ignored="false" />
+    <file path="/catalogsearch.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367423380394" ignored="false" />
+    <file path="/result.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367423789079" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,91 +79,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/persistent/customer/form/login.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="52" selection-start="196" selection-end="222" vertical-scroll-proportion="-5.625">
-              <folding>
-                <element signature="e#6#165#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/persistent/customer/form/register.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="45" selection-start="1258" selection-end="1258" vertical-scroll-proportion="-5.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/persistent/customer/form/register.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="61" selection-start="10307" selection-end="10307" vertical-scroll-proportion="-5.5416665">
-              <folding>
-                <element signature="e#6#968#0" expanded="true" />
-                <element signature="e#978#1099#0" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#li#3;n#ul#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#li#3;n#ul#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/customer.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="203" column="122" selection-start="8088" selection-end="8102" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forgotpassword.phtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/forgotpassword.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="10" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.44058746">
-              <folding>
-                <element signature="e#6#968#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forgotpassword.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/customer/form/forgotpassword.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="9" selection-start="0" selection-end="2579" vertical-scroll-proportion="-19.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/contacts.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1813" selection-end="2416" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="465" column="22" selection-start="8055" selection-end="8055" vertical-scroll-proportion="0.0">
+            <state line="1110" column="24" selection-start="19292" selection-end="19292" vertical-scroll-proportion="0.69557196">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/persistent/customer/form/login.phtml">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="13" selection-start="0" selection-end="4872" vertical-scroll-proportion="-28.041666">
+            <state line="12" column="31" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalogsearch.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/catalogsearch.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="89" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalogsearch/advanced/form.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.833333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.mini.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalogsearch/form.mini.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="53" selection-start="1754" selection-end="1773" vertical-scroll-proportion="-8.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalogsearch/result.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="14" selection-start="1827" selection-end="1827" vertical-scroll-proportion="-9.166667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalog.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/catalog.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="32" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,22 +152,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/cms.xml" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Page/Block/Template/Links.php" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/page.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/wishlist.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/template/links/account.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/html/header.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/login.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/base/default/template/customer/form/login.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/persistent.xml" />
-        <option value="$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/persistent/customer/form/login.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/persistent/customer/form/register.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/tag.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/newsletter.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/newsletter/subscribe.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/newsletter.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/address/book.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/address/edit.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/customer.xml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/forgotpassword.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/logout.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage/link.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/reports.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/catalogsearch.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalogsearch/result.phtml" />
+        <option value="$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js" />
+        <option value="$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css" />
       </list>
     </option>
   </component>
@@ -475,6 +466,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -689,6 +710,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="review" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="persistent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -773,7 +832,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="customer" />
+              <option name="myItemId" value="newsletter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -814,8 +873,122 @@
               <option name="myItemId" value="customer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="form" />
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catalogsearch" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -882,50 +1055,12 @@
               <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="customer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="form" />
+              <option name="myItemId" value="sales" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -951,19 +1086,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -994,14 +1121,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1043,57 +1162,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="links" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
+              <option name="myItemId" value="newsletter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1132,48 +1201,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="customer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contacts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1212,6 +1239,136 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onepage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1288,140 +1445,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="product" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="list" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="navigation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="category" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1763,7 +1786,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Helper" />
+              <option name="myItemId" value="Block" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1803,6 +1826,13 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/skin/adminhtml/awsmarket/default/js" />
       <recent name="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart" />
@@ -1834,10 +1864,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287827" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32764506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24554294" sideWeight="0.67121726" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24554294" sideWeight="0.67235494" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1912,124 +1942,119 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/customer/form/login.phtml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/logout.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="34" selection-start="1154" selection-end="1154" vertical-scroll-proportion="-5.0">
+        <state line="32" column="77" selection-start="1333" selection-end="1333" vertical-scroll-proportion="-5.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/customer/form/register.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="28" selection-start="1129" selection-end="1129" vertical-scroll-proportion="-4.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/contacts/form.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="208" selection-end="1222" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/persistent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="26" selection-start="0" selection-end="3057" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/persistent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="3057" selection-end="3057" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/login.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="0" selection-start="2044" selection-end="5502" vertical-scroll-proportion="2.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="465" column="22" selection-start="8055" selection-end="8055" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/contacts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1813" selection-end="2416" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/persistent/customer/form/login.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="13" selection-start="0" selection-end="4872" vertical-scroll-proportion="-28.041666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/persistent/customer/form/register.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="61" selection-start="10307" selection-end="10307" vertical-scroll-proportion="-5.5416665">
-          <folding>
-            <element signature="e#6#968#0" expanded="true" />
-            <element signature="e#978#1099#0" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#li#3;n#ul#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#li#3;n#ul#0;n#div#1;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/customer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="122" selection-start="8088" selection-end="8102" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/customer/form/forgotpassword.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="9" selection-start="0" selection-end="2579" vertical-scroll-proportion="-19.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/persistent/customer/form/register.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="45" selection-start="1258" selection-end="1258" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/persistent/customer/form/login.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="52" selection-start="196" selection-end="222" vertical-scroll-proportion="-5.625">
-          <folding>
-            <element signature="e#6#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/20130430_aws_schema.sql">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart/totals.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/forgotpassword.phtml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/checkout/onepage/link.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="10" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.44058746">
+        <state line="0" column="0" selection-start="0" selection-end="1441" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage/link.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="348" selection-start="1369" selection-end="1369" vertical-scroll-proportion="-16.875">
           <folding>
             <element signature="e#6#968#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/cms.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="20" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/customer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="0" selection-start="5101" selection-end="5695" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="28" selection-start="4561" selection-end="4561" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/reports.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="42" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="30" selection-start="2670" selection-end="2670" vertical-scroll-proportion="-6.0408163">
+          <folding>
+            <marker date="1367422973451" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/catalog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="32" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalogsearch/result.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="14" selection-start="1827" selection-end="1827" vertical-scroll-proportion="-9.166667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/catalogsearch.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="89" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalogsearch/advanced/form.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.833333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalogsearch/form.mini.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="53" selection-start="1754" selection-end="1773" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1110" column="24" selection-start="19292" selection-end="19292" vertical-scroll-proportion="0.69557196">
+          <folding />
         </state>
       </provider>
     </entry>
