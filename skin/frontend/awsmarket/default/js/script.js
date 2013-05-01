@@ -3,9 +3,14 @@
     $(window).load(function() {
 
         // Функция выпадающего меню
+        $('.mainNav > ul > li').hover(function(e){
 
-        $('.mainNav > ul > li').hover(function(){
-            $(this).children('ul').slideToggle();
+            $('ul', this).slideDown();
+            e.preventDefault();
+        }, function(e){
+
+            $('ul', this).slideUp();
+            e.preventDefault();
         });
 
         // Функция очистки поля поиска при фокусе
@@ -34,13 +39,20 @@
             $('#query').autoClear();
         });
 
-        $(".productSlider").jCarouselLite({
-            btnNext: ".next",
-            btnPrev: ".prev",
-            vertical: true,
-            visible: 2,
-            circular: false
-        });
+        if ( $(".productSlider ul li").length > 2 ) {
+
+            $(".productSlider").jCarouselLite({
+                btnNext: ".next",
+                btnPrev: ".prev",
+                vertical: true,
+                visible: 2,
+                circular: false
+            });
+        } else {
+
+            $('.productSliderWrapper button').hide();
+            $('.productSliderWrapper, .productSlider').addClass('height-auto');
+        } // if
 
         $(".sortingMenu select, .checkout select").chosen();
 

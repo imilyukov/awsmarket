@@ -24,22 +24,20 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-<div class="dashboard">
-    <div class="page-title">
-        <h1><?php echo $this->__('My Dashboard') ?></h1>
+<?php
+/**
+ * @var $this Mage_Sales_Block_Order_Comments
+ * @see Mage_Sales_Block_Order_Comments
+ */
+?>
+<?php if ($this->hasComments()):?>
+    <div class="order-additional order-comments">
+        <h2 class="sub-title"><?php echo $this->getTitle() ?></h2>
+        <dl class="order-about">
+            <?php foreach ($this->getComments() as $_commentItem): ?>
+                <dt><?php echo $this->formatDate($_commentItem->getCreatedAtStoreDate(), 'medium', true) ?></dt>
+                <dd><?php echo $this->escapeHtml($_commentItem->getComment()) ?></dd>
+            <?php endforeach; ?>
+        </dl>
     </div>
-    <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
-    <?php echo $this->getChildHtml('hello') ?>
-    <?php echo $this->getChildHtml('top') ?>
-    <div class="box-account box-info">
-        <div class="box-head">
-            <h4><?php echo $this->__('Account Information') ?></h4>
-        </div>
-        <?php /* Extensions placeholder */ ?>
-        <?php echo $this->getChildHtml('customer.account.dashboard.extra') ?>
-        <?php echo $this->getChildHtml('info') ?>
-        <?php echo $this->getChildHtml('address') ?>
-    </div>
-    <?php echo $this->getChildHtml('info1') ?>
-    <?php echo $this->getChildHtml('info2') ?>
-</div>
+<?php endif;?>
