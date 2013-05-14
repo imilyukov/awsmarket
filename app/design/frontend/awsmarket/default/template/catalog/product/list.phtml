@@ -21,11 +21,15 @@ $helper = $this->helper('catalog/output');
             <li>
 
                 <a href="<?php echo $product->getProductUrl() ?>">
-                    <img alt="" src="<?php echo $product->getThumbnailUrl(225, 270) ?>">
+                    <?php
+                    $img = '<img src="'.$this->helper('catalog/image')->init($product, 'image')->resize(225, 270).'" />';
+                    echo $helper->productAttribute($product, $img, 'image');
+                    ?>
                 </a>
 
                 <div class="prodDesc">
-                    <p><?php echo $product->getShortDescription() ?></p>
+                    <h3><?php echo $product->getName() ?></h3>
+                    <?php echo $product->getShortDescription() ?>
                     <span><?php echo $product->getFormatedPrice() ?></span>
                 </div>
 

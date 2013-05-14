@@ -1114,3 +1114,312 @@ table tfoot button {
 .search-autocomplete .amount {
     margin-right: 10px;
 }
+
+/* Стилизация popup-окна
+----------------------------------- */
+.body-overlay {
+    overflow: hidden;
+}
+.overlay {
+    background: #000 url(../images/loading.gif) center no-repeat;
+    opacity: 0.5;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%
+}
+.popup button {
+    padding: 0
+}
+.popup {
+    position: fixed;
+    z-index: 9999;
+    top: 162px;
+    left: 50%;
+    margin-left: -451px;
+    width: 903px;
+    background: #3a3a3a;
+    border: 1px solid #5f5f5e;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.83);
+    color: #fff
+}
+.popup h3 {
+    font: italic 20px/15px Georgia,"Bitstream Charter","Century Schoolbook L","Liberation Serif",Times,serif;
+    padding-bottom:12px;
+    border-bottom:2px dotted #fff;
+    margin-bottom:18px
+}
+.popup strong,
+.popup h4 {
+    font-weight: bold;
+}
+.popup-inner {
+    position: relative;
+    padding: 38px 49px 37px 46px
+}
+.close-popup {
+    position: absolute;
+    top:-13px;
+    right:-12px;
+    display: block;
+    overflow:hidden;
+    background: url(../images/sprite-popup.png) no-repeat -147px -28px;
+    width:24px;
+    height:24px;
+}
+.popup:hover .close-popup {
+    background-position: -2px -2px
+}
+.popup-left {
+    width: 311px;
+    float: left;
+    overflow: hidden;
+}
+.popup-right {
+    width: 461px;
+    float: right;
+}
+.popup-right article{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #969696;
+    margin-bottom: 20px
+}
+.popup-right article p{
+    margin-bottom: 14px
+}
+.popup-choose-color,
+.popup-choose-size {
+    float: left;
+    height: 73px
+}
+.popup-choose-color {
+    padding-right: 72px
+}
+.popup-choose-size a,
+.popup-choose-color a{
+    cursor: pointer;
+    float: left;
+    height: 23px;
+    width: 24px;
+    border: 1px solid #969696;
+    margin-right: 6px
+}
+.popup-choose-color a.active-color,
+.popup-choose-color a:hover{
+    border: 1px solid #fff
+}
+.popup-choose-color .color-791420{
+    background: #791420
+}
+.popup-choose-color .color-0d080e{
+    background: #0d080e
+}
+.popup-choose-color .color-b449c9{
+    background: #b449c9
+}
+.popup-choose-size a {
+    line-height: 23px;
+    height: 23px;
+    padding: 0 4px;
+    width: auto;
+    text-align: center;
+    min-width: 24px;
+    background: transparent;
+    color: #fff;
+    margin-right: 4px
+}
+.popup-choose-size a:hover {
+    border-color: #fff;
+}
+.popup-choose-size a.active-size {
+    border-color: #fff;
+    background: #000
+}
+.popup-choose-quantity {
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #969696
+}
+.popup-choose-quantity p {
+    clear: both;
+}
+.popup-choose-quantity input[type=text] {
+    width: 30px;
+    height: 23px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #969696;
+    float: left;
+    margin-right: 4px;
+    padding: 0
+}
+.popup-choose-quantity input[type=text]:focus {
+    border: 1px solid #fff
+}
+.popup-choose-quantity div {
+    float: left;
+}
+.popup-choose-quantity div button{
+    width:11px;
+    height:11px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background: url(../images/sprite-popup.png) no-repeat;
+}
+.popup-choose-quantity div button.quantity-plus{
+    background-position: -95px -2px;
+    margin-bottom: 3px
+}
+.popup-choose-quantity div button.quantity-minus{
+    background-position: -108px -2px
+}
+.popup-right article p{
+    margin-bottom: 14px
+}
+.popup-choose-color p,
+.popup-choose-size p,
+.popup-choose-quantity p{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 11px
+}
+.popup-price {
+    color: #fff;
+    font-size: 20px;
+    line-height: 15px;
+    font-weight: bold;
+    float: left;
+}
+.popup-choose input[type=submit] {
+    background: url(../images/sprite-popup.png) no-repeat -142px -2px;
+    width:130px;
+    height:26px;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    padding: 0;
+    font-size: 13px;
+    color: #000;
+    text-shadow: 0 0 2px rgba(255,255,255,.75), 1px 1px 1px #fff;
+    line-height: 26px
+}
+.popup-choose input[type=submit]:hover {
+    background-position: -320px -2px
+}
+.main-popup-image {
+    border: 1px solid #fff;
+    width: 293px;
+    padding: 8px;
+    background: #000;
+    overflow: hidden;
+    margin-bottom: 9px;
+    height: 300px;
+}
+.main-popup-image img{
+    float: left;
+    margin: 0;
+    padding: 0
+}
+.popup-buttons {
+    height: 20px;
+    padding: 0 9px;
+    margin-bottom: 9px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px
+}
+.additional-popup-images {
+    width: 292px;
+    padding: 8px;
+    background: #000;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+.additional-popup-images div {
+    width: 320px
+}
+.additional-popup-images a{
+    display: block;
+    float: left;
+    overflow: hidden;
+    width: 90px;
+    height: 115px;
+    border: 1px solid #bdbdbd;
+    margin-right: 8px
+}
+.additional-popup-images a img{
+    float: left;
+}
+.popup-buttons button {
+    background: url(../images/sprite-popup.png) no-repeat;
+    float: left;
+    border: none;
+    cursor: pointer;
+}
+.popup-buttons span {
+    display: block;
+    float: left
+}
+.popup-buttons .full-screen-btn {
+    width:19px;
+    height:20px;
+    background-position: -28px -2px;
+    margin-right: 12px
+}
+.popup-buttons .full-screen-btn:hover{
+    background-position: -121px -2px
+}
+.popup-buttons .full-screen {
+    margin-right: 20px
+}
+.popup-buttons .enlarge-plus,
+.popup-buttons .enlarge-minus {
+    width:11px;
+    height:11px;
+}
+.popup-buttons .enlarge-plus {
+    background-position: -69px -2px;
+    margin: 5px 10px 0 13px
+}
+.popup-buttons .enlarge-plus:hover {
+    background-position: -294px -2px
+}
+.popup-buttons .enlarge-minus {
+    background-position: -82px -2px;
+    margin: 5px 20px 0 0
+}
+.popup-buttons .enlarge-minus:hover {
+    background-position: -307px -2px
+}
+.popup-buttons .next-img,
+.popup-buttons .prev-img {
+    width:8px;
+    height:15px;
+}
+.popup-buttons .prev-img {
+    margin: 4px 8px 0 15px;
+    background-position: -49px -2px
+}
+.popup-buttons .prev-img:hover {
+    background-position: -274px -2px
+}
+.popup-buttons .next-img {
+    margin: 4px 0 0;
+    background-position: -59px -2px
+}
+.popup-buttons .next-img:hover {
+    background-position: -284px -2px
+}
+
+.img-overlay {
+    background: #000 url(../images/loading.gif) center no-repeat;
+}

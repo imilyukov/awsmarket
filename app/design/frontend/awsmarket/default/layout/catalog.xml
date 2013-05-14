@@ -7,6 +7,14 @@ Category default layout
 
     <catalog_category_default translate="label">
         <label>Catalog Category (Non-Anchor)</label>
+        <reference name="head">
+            <action method="addJs"><script>varien/product.js</script></action>
+            <action method="addJs"><script>varien/configurable.js</script></action>
+
+            <action method="addItem"><type>js_css</type><name>calendar/calendar-win2k-1.css</name><params/><!--<if/><condition>can_load_calendar_js</condition>--></action>
+            <action method="addItem"><type>js</type><name>calendar/calendar.js</name><!--<params/><if/><condition>can_load_calendar_js</condition>--></action>
+            <action method="addItem"><type>js</type><name>calendar/calendar-setup.js</name><!--<params/><if/><condition>can_load_calendar_js</condition>--></action>
+        </reference>
         <reference name="content">
             <action method="setElementClass"><value>productList</value></action>
 
@@ -19,7 +27,7 @@ Category default layout
                         <block type="catalog/product_list_sortingMenu" name="product_list_sortingMenu" template="catalog/product/list/sorting-menu.phtml">
                             <action method="addAttributeToSort"><type>price</type><default>sort by</default></action>
                             <action method="addAttributeToFilter"><type>color</type><default>all colours</default></action>
-                            <action method="addAttributeToFilter"><type>clothes_size</type><default>all sizes</default></action>
+                            <action method="addAttributeToFilter"><type>size</type><default>all sizes</default></action>
                         </block>
                     </block>
                 </block>
@@ -37,18 +45,14 @@ Category default layout
         <label>Catalog Product View (Any)</label>
         <!-- Mage_Catalog -->
         <reference name="root">
-            <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+            <action method="setTemplate"><template>page/popup.phtml</template></action>
         </reference>
-        <reference name="head">
-            <action method="addJs"><script>varien/product.js</script></action>
-            <action method="addJs"><script>varien/configurable.js</script></action>
 
-            <action method="addItem"><type>js_css</type><name>calendar/calendar-win2k-1.css</name><params/><!--<if/><condition>can_load_calendar_js</condition>--></action>
-            <action method="addItem"><type>js</type><name>calendar/calendar.js</name><!--<params/><if/><condition>can_load_calendar_js</condition>--></action>
-            <action method="addItem"><type>js</type><name>calendar/calendar-setup.js</name><!--<params/><if/><condition>can_load_calendar_js</condition>--></action>
-        </reference>
         <reference name="content">
-            <block type="catalog/product_view" name="product.info" template="catalog/product/view.phtml">
+            <action method="setElementClass"><value>popup</value></action>
+            <action method="setHtmlTagName"><value>div</value></action>
+            <remove name="breadcrumbs" />
+            <block type="catalog/product_view" name="product.info" template="catalog/product/view/popup.phtml">
                 <!--
                 <action method="addReviewSummaryTemplate"><type>default</type><template>review/helper/summary.phtml</template></action>
                 <action method="addReviewSummaryTemplate"><type>short</type><template>review/helper/summary_short.phtml</template></action>

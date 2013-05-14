@@ -1,0 +1,83 @@
+<?php
+/**
+ * @author imilyukov
+ */
+
+$simpleProduct = $this->getProduct();
+$simpleProductId = $simpleProduct->getId();
+$parentIds = Mage::getResourceSingleton('catalog/product_type_configurable')
+    ->getParentIdsByChild($simpleProductId);
+$product = isset($parentIds[0]) ? Mage::getModel('catalog/product')->load($parentIds[0]) : $this->getProduct();
+
+$childProducts = Mage::getModel('catalog/product_type_configurable')->getUsedProductCollection($product);
+
+$productAttributeOptions = $product->getTypeInstance(true)->getConfigurableAttributesAsArray($product);
+$attributeOptions = array();
+$attributeProducts = array();
+foreach ($productAttributeOptions as $productAttribute) {
+    foreach ($productAttribute['values'] as $attribute) {
+        $attributeOptions[$productAttribute['label']][$attribute['value_index']] = $attribute['store_label'];
+
+        foreach($childProducts as $childProduct) {
+
+            $childProduct->load();
+            if ($attribute['store_label'] == $childProduct->getAttributeText(strtolower($productAttribute['label']))) {
+
+                $attributeProducts[$productAttribute['label']][$attribute['value_index']] = $childProduct;
+                break;
+            } // if
+        } // foreach
+    } // foreach
+}
+
+?>
+<script type="text/javascript">
+    var optionsPrice = new Product.OptionsPrice(<?php echo $this->getJsonConfig() ?>);
+</script>
+<div class="popup-inner">
+    <div class="popup-left">
+
+        <?php echo $this->getChildHtml('media') ?>
+
+    </div>
+    <div class="popup-right">
+        <article>
+
+            <?php echo $this->getChildHtml('description') ?>
+
+        </article>
+        <div class="popup-choose">
+            <form action="<?php echo $this->getSubmitUrl($simpleProduct) ?>" method="post" id="product_addtocart_form"<?php if($simpleProduct->getOptions()): ?> enctype="multipart/form-data"<?php endif; ?>>
+                <div class="no-display">
+                    <input type="hidden" name="product" value="<?php echo $simpleProduct->getId() ?>" />
+                    <input type="hidden" name="related_product" id="related-products-field" value="" />
+                </div>
+
+                <?php if( isset($attributeOptions['Color']) ): ?>
+                <div class="popup-choose-color">
+                    <p>Choose colour:</p>
+                    <?php foreach($attributeOptions['Color'] as $index => $color): ?>
+                        <a href="<?php echo $attributeProducts['Color'][$index]->getProductUrl() ?>" <?php if($color == $this->getProduct()->getAttributeText('color')){echo 'class="select-color-btn active-color"';$selectedIndex = $index;}else{echo 'class="select-color-btn"';} ?> onclick="(function($, self, e){e.preventDefault();$('.select-color-btn').removeClass('active-color');$('#super_attribute__color').attr('name', 'super_attribute[<?php echo $index ?>]').val($(self).addClass('active-color').val());})(jQuery, this, event);" value="<?php echo $color ?>" style="background: <?php echo $color ?>"></a>
+                    <?php endforeach; ?>
+                </div>
+                <input type="hidden" name="super_attribute[<?php echo $selectedIndex ?>]" id="super_attribute__color" value="<?php echo $this->getProduct()->getAttributeText('color') ?>" />
+                <?php endif; ?>
+
+                <?php if( isset($attributeOptions['Size']) ): ?>
+                <div class="popup-choose-size">
+                    <p>Choose size:</p>
+                    <?php foreach($attributeOptions['Size'] as $index => $size): ?>
+                        <a href="<?php echo $attributeProducts['Size'][$index]->getProductUrl() ?>" <?php if($size == $this->getProduct()->getAttributeText('size')){echo 'class="select-size-btn active-size"';$selectedIndex = $index;}else{echo 'class="select-size-btn"';} ?> onclick="(function($, self, e){e.preventDefault();$('.select-size-btn').removeClass('active-size');$('#super_attribute__size').attr('name', 'super_attribute[<?php echo $index ?>]').val($(self).addClass('active-size').val());})(jQuery, this, event);" value="<?php echo $size ?>" style="background: <?php echo $size ?>"><?php echo $size ?></a>
+                    <?php endforeach; ?>
+                </div>
+                <input type="hidden" name="super_attribute[<?php echo $selectedIndex ?>]" id="super_attribute__size" value="<?php echo $this->getProduct()->getAttributeText('size') ?>" />
+                <?php endif; ?>
+
+                <?php echo $this->getChildHtml('addtocart') ?>
+
+            </form>
+        </div>
+    </div>
+    <div class="clear-nopadding"></div>
+    <a href="" class="close-popup"></a>
+</div>
