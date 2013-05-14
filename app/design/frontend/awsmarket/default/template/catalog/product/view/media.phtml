@@ -1,0 +1,46 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: imilyukov
+ * Date: 5/14/13
+ * Time: 12:08 PM
+ * To change this template use File | Settings | File Templates.
+ */
+
+$product = $this->getProduct();
+$helper = $this->helper('catalog/output');
+?>
+
+<div class="main-popup-image">
+    <div style="position: absolute;height: 293px;width: 293px;">
+    <?php
+    $img = '<img src="'.$this->helper('catalog/image')->init($product, 'image')->resize(293).'" alt="'.$this->htmlEscape($this->getImageLabel()).'" title="'.$this->htmlEscape($this->getImageLabel()).'" />';
+    echo $helper->productAttribute($product, $img, 'image');
+    ?>
+    </div>
+</div>
+<?php if (count($this->getGalleryImages()) > 0): ?>
+<div class="popup-buttons">
+    <button href="<?php echo $this->helper('catalog/image')->init($product, 'image')->resize(293).'" alt="'.$this->htmlEscape($this->getImageLabel()) ?>" rel="lightbox" class="full-screen-btn"></button>
+    <span class="full-screen">full screen</span>
+    <span>enlarge</span>
+    <button value="" class="enlarge-plus"></button>
+    <button value="" class="enlarge-minus"></button>
+    <span class="counter-img"><?php echo count($this->getGalleryImages()) ? '1/' . count($this->getGalleryImages()) : '' ?></span>
+    <button value="" class="prev-img"></button>
+    <button value="" class="next-img"></button>
+</div>
+<div class="additional-popup-images">
+    <div>
+        <ul>
+            <?php foreach ($this->getGalleryImages() as $image): ?>
+
+                <li>
+                    <a data-index="<?php echo $index ? ++$index : $index = 1 ?>" data-href="<?php echo $this->helper('catalog/image')->init($this->getProduct(), 'image', $image->getFile()); ?>" href="<?php echo $this->helper('catalog/image')->init($this->getProduct(), 'image', $image->getFile())->resize(293); ?>" title="<?php echo $this->htmlEscape($image->getLabel()) ?>"><img src="<?php echo $this->helper('catalog/image')->init($this->getProduct(), 'thumbnail', $image->getFile())->resize(90, 115); ?>" alt="<?php echo $this->htmlEscape($image->getLabel()) ?>" /></a>
+                </li>
+
+            <?php endforeach; ?>
+        </ul>
+    </div>
+</div>
+<?php endif; ?>

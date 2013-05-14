@@ -20,6 +20,7 @@
             <block type="page/html_head" name="head" as="head">
                 <action method="addCss"><stylesheet>css/reset.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/chosen.css</stylesheet></action>
+                <action method="addCss"><stylesheet>css/lightbox.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/style.css</stylesheet></action>
                 <action method="addItem"><type>skin_js</type><name>js/html5shiv.js</name><params/><if>lt IE 8</if></action>
                 <action method="addItem"><type>skin_js</type><name>js/IE9.js</name><params/><if>lt IE 8</if></action>
@@ -37,11 +38,18 @@
                 <action method="addJs"><script>varien/menu.js</script></action>
                 <action method="addJs"><script>mage/translate.js</script></action>
                 <action method="addJs"><script>mage/cookies.js</script></action>
+                <action method="addJs"><script>calendar/calendar.js</script></action>
+                <action method="addJs"><script>varien/product.js</script></action>
                 <!-- jQuery -->
                 <action method="addItem"><type>skin_js</type><name>lib/jquery-1.9.1.min.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>lib/jquery-ui-1.8.18.custom.min.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>lib/jquery.smooth-scroll.min.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>lib/lightbox.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>lib/jquery.mousewheel.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>lib/chosen.jquery.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>lib/jcarousellite_1.0.1.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>lib/jquery.icheck.min.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>lib/jquery.iviewer.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/script.js</name></action>
             </block>
 

@@ -1,0 +1,55 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+$product = $this->getProduct();
+$childProducts = Mage::getModel('catalog/product_type_configurable')->getUsedProductCollection($product);
+
+//Find the max and minimum limits
+$stockItem = $product->getStockItem();
+if(!$stockItem->getUseConfigMaxSaleQty()){
+    $max = $stockItem->getMaxSaleQty() <= $stockItem->getQty() ? (int) $stockItem->getMaxSaleQty() : (int) $stockItem->getQty();
+} else {
+    $_storeMax = Mage::getStoreConfig('cataloginventory/item_options/max_sale_qty', $this->getStoreId());
+    $max = $stockItem->getQty() <= $_storeMax ? (int) $stockItem->getQty() : (int) $_storeMax;
+}
+$min = $this->getMinimalQty($product)== null?1:$this->getMinimalQty($product);
+
+if($product->isSaleable()): ?>
+    <div class="popup-choose-quantity">
+
+        <p><?php echo $this->__('Quantity') . ':'; ?></p>
+        <input name="qty" id="qty" type="text" maxlength="12" value="<?php echo $this->getProductDefaultQty() * 1 ?>" title="<?php echo $this->__('Qty') ?>" class="qty" />
+        <div>
+            <button value="" onclick="return (function($){var qty = $('#qty'),value = parseInt(qty.val());if(++value > <?php echo $max = 12 ?>){return false;}qty.val(value);return false;})(jQuery);" class="quantity-plus"></button>
+            <button value="" onclick="return (function($){var qty = $('#qty'),value = parseInt(qty.val());if(--value < <?php echo $min ?>){return false;}qty.val(value);return false;})(jQuery);" class="quantity-minus"></button>
+        </div>
+
+    </div>
+    <p class="popup-price"><?php echo $product->getFormatedPrice() ?></p>
+    <input type="submit" value="<?php echo $this->__('ADD TO BAG'); ?>">
+    <?php echo $this->getChildHtml('', true, true) ?>
+<?php endif; ?>
