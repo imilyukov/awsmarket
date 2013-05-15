@@ -21,10 +21,7 @@ $helper = $this->helper('catalog/output');
             <li>
 
                 <a href="<?php echo $product->getProductUrl() ?>">
-                    <?php
-                    $img = '<img src="'.$this->helper('catalog/image')->init($product, 'image')->resize(225, 270).'" />';
-                    echo $helper->productAttribute($product, $img, 'image');
-                    ?>
+                    <img alt="" src="<?php echo $product->getThumbnailUrl(225, 270) ?>">
                 </a>
 
                 <div class="prodDesc">

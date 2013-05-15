@@ -8,14 +8,14 @@
     <file path="/style.css" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368565904283" ignored="false" />
     <file path="/page.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368535920940" ignored="false" />
     <file path="/2columns-right.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365976187116" ignored="false" />
-    <file path="/a.dummy" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368554130194" ignored="false" />
+    <file path="/a.dummy" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368567853026" ignored="false" />
     <file path="/sidebar.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367164454408" ignored="false" />
     <file path="/grabber.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365863817311" ignored="false" />
     <file path="/footer.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365888894064" ignored="false" />
     <file path="/cms.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367281508383" ignored="false" />
     <file path="/topmenu.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365967804134" ignored="false" />
     <file path="/top.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365970107380" ignored="false" />
-    <file path="/script.js" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368566291996" ignored="false" />
+    <file path="/script.js" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368567732997" ignored="false" />
     <file path="/form.mini.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365973805772" ignored="false" />
     <file path="/header.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365976616998" ignored="false" />
     <file path="/checkout.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367421945302" ignored="false" />
@@ -94,17 +94,69 @@
       <file leaf-file-name="onepage1.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage1.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="-1.875">
+            <state line="26" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="11.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkout.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="checkout.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="97" selection-start="7956" selection-end="7956" vertical-scroll-proportion="0.6867322">
+            <state line="165" column="97" selection-start="7956" selection-end="7956" vertical-scroll-proportion="-13.36">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="0" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="28" selection-start="1968" selection-end="1970" vertical-scroll-proportion="-9.571428">
+              <folding>
+                <element signature="e#6#968#0" expanded="true" />
+                <marker date="1368568422303" expanded="true" signature="5944:5975" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="16" selection-start="484" selection-end="484" vertical-scroll-proportion="0.37220845">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popup.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/popup.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="614" selection-start="4136" selection-end="4136" vertical-scroll-proportion="-43.125">
+              <folding>
+                <element signature="e#6#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="media.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/media.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="97" selection-start="823" selection-end="823" vertical-scroll-proportion="-14.375">
+              <folding>
+                <element signature="e#6#166#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalogsearch/result.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/popup.phtml" />
         <option value="$PROJECT_DIR$/var/log/system.log" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/description.phtml" />
@@ -128,13 +179,14 @@
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/catalog.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart/sidebar/default.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/addtocart.phtml" />
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/media.phtml" />
         <option value="$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/popup.phtml" />
-        <option value="$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage1.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml" />
+        <option value="$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list.phtml" />
       </list>
     </option>
   </component>
@@ -1438,95 +1490,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="onepage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sidebar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2345,47 +2309,10 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Sales/Model/Quote.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="918" column="25" selection-start="28635" selection-end="28635" vertical-scroll-proportion="-16.958334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/CatalogInventory/Model/Stock/Item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="341" column="33" selection-start="10994" selection-end="11007" vertical-scroll-proportion="0.32515338">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/addtocart.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="28" selection-start="2483" selection-end="2483" vertical-scroll-proportion="0.5316456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1384" column="51" selection-start="37908" selection-end="37922" vertical-scroll-proportion="0.34370947">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="61" selection-start="923" selection-end="923" vertical-scroll-proportion="0.5521472">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/media.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="9" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.62421185">
-          <folding>
-            <element signature="e#6#166#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2424,20 +2351,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/popup.phtml">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Checkout/Model/Cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="614" selection-start="4136" selection-end="4136" vertical-scroll-proportion="-21.166666">
-          <folding>
-            <element signature="e#6#34#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#form#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="566" column="52" selection-start="17637" selection-end="17649" vertical-scroll-proportion="0.016393442">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Checkout/controllers/CartController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="17" selection-start="5084" selection-end="5084" vertical-scroll-proportion="0.7955936">
+        <state line="306" column="45" selection-start="10580" selection-end="10580" vertical-scroll-proportion="0.07061791">
           <folding />
         </state>
       </provider>
@@ -2449,16 +2372,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage1.phtml">
+    <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="-1.875">
+        <state line="74" column="0" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="97" selection-start="7956" selection-end="7956" vertical-scroll-proportion="0.6867322">
+        <state line="165" column="97" selection-start="7956" selection-end="7956" vertical-scroll-proportion="-13.36">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage1.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="28" selection-start="1968" selection-end="1970" vertical-scroll-proportion="-9.571428">
+          <folding>
+            <element signature="e#6#968#0" expanded="true" />
+            <marker date="1368568422303" expanded="true" signature="5944:5975" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/popup.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="614" selection-start="4136" selection-end="4136" vertical-scroll-proportion="-43.125">
+          <folding>
+            <element signature="e#6#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/media.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="97" selection-start="823" selection-end="823" vertical-scroll-proportion="-14.375">
+          <folding>
+            <element signature="e#6#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="484" selection-end="484" vertical-scroll-proportion="0.37220845">
           <folding />
         </state>
       </provider>
