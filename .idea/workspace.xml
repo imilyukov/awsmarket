@@ -85,16 +85,25 @@
       <file leaf-file-name="register.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/register.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="135" selection-start="11540" selection-end="11540" vertical-scroll-proportion="-11.142858">
+            <state line="178" column="71" selection-start="11468" selection-end="11476" vertical-scroll-proportion="-11.142858">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forgotpassword.phtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="register.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/persistent/customer/form/register.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="179" column="135" selection-start="12076" selection-end="12076" vertical-scroll-proportion="0.6254459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forgotpassword.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/forgotpassword.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="131" selection-start="2465" selection-end="2465" vertical-scroll-proportion="0.44589773">
+            <state line="48" column="131" selection-start="2465" selection-end="2465" vertical-scroll-proportion="-15.625">
               <folding />
             </state>
           </provider>
@@ -110,7 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/description.phtml" />
         <option value="$PROJECT_DIR$/skin/frontend/awsmarket/default/lib/jquery.mousewheel.min.js" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/page.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/catalog.xml" />
@@ -126,6 +134,7 @@
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/register.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/forgotpassword.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/persistent/customer/form/register.phtml" />
       </list>
     </option>
   </component>
@@ -1216,6 +1225,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="persistent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="customer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="awsmarket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="page" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2153,11 +2208,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/css/chosen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.031565655" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart/sidebar.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="65" selection-start="645" selection-end="656" vertical-scroll-proportion="0.3125" />
@@ -2170,7 +2220,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1232" column="21" selection-start="21651" selection-end="21651" vertical-scroll-proportion="0.50931674" />
+        <state line="1232" column="21" selection-start="21651" selection-end="21651" vertical-scroll-proportion="0.50931674">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Checkout/Model/Cart.php">
@@ -2241,14 +2293,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/register.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="135" selection-start="11540" selection-end="11540" vertical-scroll-proportion="-11.142858">
+        <state line="178" column="71" selection-start="11468" selection-end="11476" vertical-scroll-proportion="-11.142858">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/forgotpassword.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="131" selection-start="2465" selection-end="2465" vertical-scroll-proportion="0.44589773">
+        <state line="48" column="131" selection-start="2465" selection-end="2465" vertical-scroll-proportion="-15.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/persistent/customer/form/register.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="135" selection-start="12076" selection-end="12076" vertical-scroll-proportion="0.6254459">
           <folding />
         </state>
       </provider>
