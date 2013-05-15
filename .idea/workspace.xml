@@ -4,65 +4,65 @@
     <list default="true" id="4d612571-3927-46bf-a4f9-a54f154729e9" name="Default" comment="" />
     <ignored path="awsmarket.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/config.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367273734170" ignored="false" />
-    <file path="/style.css" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368565904283" ignored="false" />
-    <file path="/page.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368535920940" ignored="false" />
-    <file path="/2columns-right.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365976187116" ignored="false" />
-    <file path="/a.dummy" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368567853026" ignored="false" />
-    <file path="/sidebar.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367164454408" ignored="false" />
-    <file path="/grabber.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365863817311" ignored="false" />
-    <file path="/footer.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365888894064" ignored="false" />
-    <file path="/cms.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367281508383" ignored="false" />
-    <file path="/topmenu.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365967804134" ignored="false" />
-    <file path="/top.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365970107380" ignored="false" />
-    <file path="/script.js" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368567732997" ignored="false" />
-    <file path="/form.mini.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365973805772" ignored="false" />
-    <file path="/header.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365976616998" ignored="false" />
-    <file path="/checkout.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367421945302" ignored="false" />
-    <file path="/breadcrumbs.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367270009794" ignored="false" />
-    <file path="/browser.js" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365985384847" ignored="false" />
-    <file path="/main.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365985226415" ignored="false" />
-    <file path="/browser-fix.js" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365985168991" ignored="false" />
-    <file path="/random.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1366564323865" ignored="false" />
-    <file path="/catalog.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368535818468" ignored="false" />
-    <file path="/view.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367157105439" ignored="false" />
-    <file path="/list.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368557921029" ignored="false" />
-    <file path="/SortingMenu.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367156410842" ignored="false" />
-    <file path="/sorting-menu.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367156237885" ignored="false" />
-    <file path="/default.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367163052292" ignored="false" />
-    <file path="/form.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367276469410" ignored="false" />
-    <file path="/contacts.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367277751293" ignored="false" />
-    <file path="/Breadcrumbs.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367273649698" ignored="false" />
-    <file path="/Aws_All.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367273762565" ignored="false" />
-    <file path="/Page.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367275818881" ignored="false" />
-    <file path="/Links.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367282895138" ignored="false" />
-    <file path="/wishlist.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367283634719" ignored="false" />
-    <file path="/account.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367283967168" ignored="false" />
-    <file path="/customer.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367419803469" ignored="false" />
-    <file path="/login.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367411179080" ignored="false" />
-    <file path="/register.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367410554530" ignored="false" />
-    <file path="/forgotpassword.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367287313651" ignored="false" />
-    <file path="/navigation.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367416131443" ignored="false" />
-    <file path="/downloadable.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367412394232" ignored="false" />
-    <file path="/oauth.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367412462440" ignored="false" />
-    <file path="/edit.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367420102872" ignored="false" />
-    <file path="/sales.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367416518315" ignored="false" />
-    <file path="/history.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367416620522" ignored="false" />
-    <file path="/billing_agreement.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367416917347" ignored="false" />
-    <file path="/recurring_profile.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417025811" ignored="false" />
-    <file path="/review.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417190027" ignored="false" />
-    <file path="/tag.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417262315" ignored="false" />
-    <file path="/newsletter.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417380195" ignored="false" />
-    <file path="/subscribe.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417637963" ignored="false" />
-    <file path="/newsletter.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367418107014" ignored="false" />
-    <file path="/book.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367419509394" ignored="false" />
-    <file path="/cart.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367421405293" ignored="false" />
-    <file path="/reports.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367422212822" ignored="false" />
-    <file path="/catalogsearch.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367423380394" ignored="false" />
-    <file path="/result.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367423789079" ignored="false" />
-    <file path="/popup.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368565931701" ignored="false" />
-    <file path="/media.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368532311770" ignored="false" />
     <file path="/addtocart.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368554975388" ignored="false" />
+    <file path="/media.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368532311770" ignored="false" />
+    <file path="/popup.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368565931701" ignored="false" />
+    <file path="/result.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367423789079" ignored="false" />
+    <file path="/catalogsearch.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367423380394" ignored="false" />
+    <file path="/reports.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367422212822" ignored="false" />
+    <file path="/cart.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367421405293" ignored="false" />
+    <file path="/book.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367419509394" ignored="false" />
+    <file path="/newsletter.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367418107014" ignored="false" />
+    <file path="/subscribe.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417637963" ignored="false" />
+    <file path="/newsletter.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417380195" ignored="false" />
+    <file path="/tag.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417262315" ignored="false" />
+    <file path="/review.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417190027" ignored="false" />
+    <file path="/recurring_profile.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367417025811" ignored="false" />
+    <file path="/billing_agreement.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367416917347" ignored="false" />
+    <file path="/history.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367416620522" ignored="false" />
+    <file path="/sales.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367416518315" ignored="false" />
+    <file path="/edit.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367420102872" ignored="false" />
+    <file path="/oauth.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367412462440" ignored="false" />
+    <file path="/downloadable.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367412394232" ignored="false" />
+    <file path="/navigation.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367416131443" ignored="false" />
+    <file path="/forgotpassword.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367287313651" ignored="false" />
+    <file path="/register.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367410554530" ignored="false" />
+    <file path="/login.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367411179080" ignored="false" />
+    <file path="/customer.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367419803469" ignored="false" />
+    <file path="/account.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367283967168" ignored="false" />
+    <file path="/wishlist.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367283634719" ignored="false" />
+    <file path="/Links.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367282895138" ignored="false" />
+    <file path="/Page.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367275818881" ignored="false" />
+    <file path="/Aws_All.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367273762565" ignored="false" />
+    <file path="/Breadcrumbs.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367273649698" ignored="false" />
+    <file path="/contacts.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367277751293" ignored="false" />
+    <file path="/form.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367276469410" ignored="false" />
+    <file path="/default.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367163052292" ignored="false" />
+    <file path="/sorting-menu.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367156237885" ignored="false" />
+    <file path="/SortingMenu.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367156410842" ignored="false" />
+    <file path="/list.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368557921029" ignored="false" />
+    <file path="/view.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367157105439" ignored="false" />
+    <file path="/catalog.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368535818468" ignored="false" />
+    <file path="/random.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1366564323865" ignored="false" />
+    <file path="/browser-fix.js" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365985168991" ignored="false" />
+    <file path="/main.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365985226415" ignored="false" />
+    <file path="/browser.js" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365985384847" ignored="false" />
+    <file path="/breadcrumbs.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367270009794" ignored="false" />
+    <file path="/checkout.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367421945302" ignored="false" />
+    <file path="/header.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365976616998" ignored="false" />
+    <file path="/form.mini.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365973805772" ignored="false" />
+    <file path="/script.js" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368567732997" ignored="false" />
+    <file path="/top.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365970107380" ignored="false" />
+    <file path="/topmenu.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365967804134" ignored="false" />
+    <file path="/cms.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367281508383" ignored="false" />
+    <file path="/footer.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365888894064" ignored="false" />
+    <file path="/grabber.php" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365863817311" ignored="false" />
+    <file path="/sidebar.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367164454408" ignored="false" />
+    <file path="/a.dummy" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368567853026" ignored="false" />
+    <file path="/2columns-right.phtml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1365976187116" ignored="false" />
+    <file path="/page.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368535920940" ignored="false" />
+    <file path="/style.css" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1368565904283" ignored="false" />
+    <file path="/config.xml" changelist="4d612571-3927-46bf-a4f9-a54f154729e9" time="1367273734170" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,81 +82,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="link.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage/link.phtml">
+      <file leaf-file-name="register.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/register.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="178" column="135" selection-start="11540" selection-end="11540" vertical-scroll-proportion="-11.142858">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="onepage1.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage1.phtml">
+      <file leaf-file-name="forgotpassword.phtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/forgotpassword.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="11.25">
+            <state line="48" column="131" selection-start="2465" selection-end="2465" vertical-scroll-proportion="0.44589773">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="97" selection-start="7956" selection-end="7956" vertical-scroll-proportion="-13.36">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="28" selection-start="1968" selection-end="1970" vertical-scroll-proportion="-9.571428">
-              <folding>
-                <element signature="e#6#968#0" expanded="true" />
-                <marker date="1368568422303" expanded="true" signature="5944:5975" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.phtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="16" selection-start="484" selection-end="484" vertical-scroll-proportion="0.37220845">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="popup.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/popup.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="614" selection-start="4136" selection-end="4136" vertical-scroll-proportion="-43.125">
-              <folding>
-                <element signature="e#6#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="media.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/media.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="97" selection-start="823" selection-end="823" vertical-scroll-proportion="-14.375">
-              <folding>
-                <element signature="e#6#166#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -171,8 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/page/popup.phtml" />
-        <option value="$PROJECT_DIR$/var/log/system.log" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/description.phtml" />
         <option value="$PROJECT_DIR$/skin/frontend/awsmarket/default/lib/jquery.mousewheel.min.js" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/page.xml" />
@@ -187,6 +124,8 @@
         <option value="$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/register.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/forgotpassword.phtml" />
       </list>
     </option>
   </component>
@@ -195,9 +134,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1280" />
-    <option name="height" value="1000" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1617" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -278,38 +218,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="var" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="var" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="sql" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -365,32 +273,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1448,7 +1330,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="checkout" />
+              <option name="myItemId" value="customer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1487,10 +1373,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="checkout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cart" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1731,36 +1613,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="awsmarket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2188,9 +2040,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/grabber.php" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -2226,23 +2078,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1280" height="1000" extended-state="6" />
+    <frame x="64" y="-4" width="1617" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32423207" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25769854" sideWeight="0.6757679" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26131293" sideWeight="0.6757679" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32423207" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2274,20 +2126,13 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -2301,7 +2146,6 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
@@ -2309,60 +2153,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1384" column="51" selection-start="37908" selection-end="37922" vertical-scroll-proportion="0.34370947">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view/addtocart.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="54" selection-start="1699" selection-end="1699" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/css/chosen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.031565655">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.031565655" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart/sidebar.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="65" selection-start="645" selection-end="656" vertical-scroll-proportion="0.3125">
-          <folding />
-        </state>
+        <state line="16" column="65" selection-start="645" selection-end="656" vertical-scroll-proportion="0.3125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart/sidebar/default.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="375" selection-end="388" vertical-scroll-proportion="0.2392638">
-          <folding />
-        </state>
+        <state line="19" column="40" selection-start="375" selection-end="388" vertical-scroll-proportion="0.2392638" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1232" column="21" selection-start="21651" selection-end="21651" vertical-scroll-proportion="0.50931674">
-          <folding />
-        </state>
+        <state line="1232" column="21" selection-start="21651" selection-end="21651" vertical-scroll-proportion="0.50931674" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Checkout/Model/Cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="566" column="52" selection-start="17637" selection-end="17649" vertical-scroll-proportion="0.016393442">
-          <folding />
-        </state>
+        <state line="566" column="52" selection-start="17637" selection-end="17649" vertical-scroll-proportion="0.016393442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Checkout/controllers/CartController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="45" selection-start="10580" selection-end="10580" vertical-scroll-proportion="0.07061791">
-          <folding />
-        </state>
+        <state line="306" column="45" selection-start="10580" selection-end="10580" vertical-scroll-proportion="0.07061791" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage/link.phtml">
@@ -2381,49 +2199,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="97" selection-start="7956" selection-end="7956" vertical-scroll-proportion="-13.36">
+        <state line="165" column="97" selection-start="7956" selection-end="7956" vertical-scroll-proportion="0.44508672">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage1.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="11.25">
+        <state line="26" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="28" selection-start="1968" selection-end="1970" vertical-scroll-proportion="-9.571428">
-          <folding>
-            <element signature="e#6#968#0" expanded="true" />
-            <marker date="1368568422303" expanded="true" signature="5944:5975" placeholder="..." />
-          </folding>
+        <state line="53" column="28" selection-start="1968" selection-end="1970" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/popup.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="614" selection-start="4136" selection-end="4136" vertical-scroll-proportion="-43.125">
-          <folding>
-            <element signature="e#6#34#0" expanded="true" />
-          </folding>
+        <state line="69" column="614" selection-start="4136" selection-end="4136" vertical-scroll-proportion="0.66111773">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/media.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="97" selection-start="823" selection-end="823" vertical-scroll-proportion="-14.375">
-          <folding>
-            <element signature="e#6#166#0" expanded="true" />
-          </folding>
+        <state line="23" column="97" selection-start="823" selection-end="823" vertical-scroll-proportion="0.41022593">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/list.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="16" selection-start="484" selection-end="484" vertical-scroll-proportion="0.37220845">
+        <state line="20" column="16" selection-start="484" selection-end="484" vertical-scroll-proportion="0.35128805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/register.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="178" column="135" selection-start="11540" selection-end="11540" vertical-scroll-proportion="-11.142858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/form/forgotpassword.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="131" selection-start="2465" selection-end="2465" vertical-scroll-proportion="0.44589773">
           <folding />
         </state>
       </provider>
