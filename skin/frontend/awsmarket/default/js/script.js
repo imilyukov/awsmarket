@@ -74,7 +74,7 @@
         });
 
         // pop - up
-        $('.promo a, .prodList a, a.product-image').on('click', function popupHandler(e) {
+        $('.promo a, .prodList a, a.product-image, a.product-name').on('click', function popupHandler(e) {
 
             $('.close-popup').trigger('click');
             var url = $(this).attr('href');
