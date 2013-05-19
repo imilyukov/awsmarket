@@ -85,47 +85,8 @@
       <file leaf-file-name="link.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage/link.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="onepage1.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage1.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="11.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="97" selection-start="7956" selection-end="7956" vertical-scroll-proportion="-13.36">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cart.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="28" selection-start="1968" selection-end="1970" vertical-scroll-proportion="-9.571428">
-              <folding>
-                <element signature="e#6#968#0" expanded="true" />
-                <marker date="1368568422303" expanded="true" signature="5944:5975" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -139,24 +100,58 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="media.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/media.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="97" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="popup.phtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/popup.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="614" selection-start="4136" selection-end="4136" vertical-scroll-proportion="-43.125">
+            <state line="69" column="614" selection-start="4136" selection-end="4136" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="28" selection-start="1968" selection-end="1970" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#6#34#0" expanded="true" />
+                <marker date="1368568422303" expanded="true" signature="5944:5975" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="media.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/media.phtml">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="97" selection-start="823" selection-end="823" vertical-scroll-proportion="-14.375">
-              <folding>
-                <element signature="e#6#166#0" expanded="true" />
-              </folding>
+            <state line="74" column="0" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkout.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="165" column="97" selection-start="7956" selection-end="7956" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="onepage1.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage1.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2227,14 +2222,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32423207" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25769854" sideWeight="0.6757679" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26661265" sideWeight="0.6757679" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2243,6 +2237,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32423207" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2311,58 +2306,42 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1384" column="51" selection-start="37908" selection-end="37922" vertical-scroll-proportion="0.34370947">
-          <folding />
-        </state>
+        <state line="1384" column="51" selection-start="37908" selection-end="37922" vertical-scroll-proportion="0.34370947" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/template/catalog/product/view/addtocart.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="54" selection-start="1699" selection-end="1699" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
+        <state line="35" column="54" selection-start="1699" selection-end="1699" vertical-scroll-proportion="-7.5" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/css/chosen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.031565655">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.031565655" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart/sidebar.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="65" selection-start="645" selection-end="656" vertical-scroll-proportion="0.3125">
-          <folding />
-        </state>
+        <state line="16" column="65" selection-start="645" selection-end="656" vertical-scroll-proportion="0.3125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart/sidebar/default.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="375" selection-end="388" vertical-scroll-proportion="0.2392638">
-          <folding />
-        </state>
+        <state line="19" column="40" selection-start="375" selection-end="388" vertical-scroll-proportion="0.2392638" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1232" column="21" selection-start="21651" selection-end="21651" vertical-scroll-proportion="0.50931674">
-          <folding />
-        </state>
+        <state line="1232" column="21" selection-start="21651" selection-end="21651" vertical-scroll-proportion="0.50931674" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Checkout/Model/Cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="566" column="52" selection-start="17637" selection-end="17649" vertical-scroll-proportion="0.016393442">
-          <folding />
-        </state>
+        <state line="566" column="52" selection-start="17637" selection-end="17649" vertical-scroll-proportion="0.016393442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Checkout/controllers/CartController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="45" selection-start="10580" selection-end="10580" vertical-scroll-proportion="0.07061791">
-          <folding />
-        </state>
+        <state line="306" column="45" selection-start="10580" selection-end="10580" vertical-scroll-proportion="0.07061791" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage/link.phtml">
@@ -2381,23 +2360,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/checkout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="97" selection-start="7956" selection-end="7956" vertical-scroll-proportion="-13.36">
+        <state line="165" column="97" selection-start="7956" selection-end="7956" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/onepage1.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="11.25">
+        <state line="26" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/checkout/cart.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="28" selection-start="1968" selection-end="1970" vertical-scroll-proportion="-9.571428">
+        <state line="53" column="28" selection-start="1968" selection-end="1970" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#6#968#0" expanded="true" />
             <marker date="1368568422303" expanded="true" signature="5944:5975" placeholder="..." />
           </folding>
         </state>
@@ -2405,19 +2383,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/popup.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="614" selection-start="4136" selection-end="4136" vertical-scroll-proportion="-43.125">
-          <folding>
-            <element signature="e#6#34#0" expanded="true" />
-          </folding>
+        <state line="69" column="614" selection-start="4136" selection-end="4136" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/catalog/product/view/media.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="97" selection-start="823" selection-end="823" vertical-scroll-proportion="-14.375">
-          <folding>
-            <element signature="e#6#166#0" expanded="true" />
-          </folding>
+        <state line="23" column="97" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
