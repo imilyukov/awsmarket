@@ -50,6 +50,7 @@
                 <action method="addItem"><type>skin_js</type><name>lib/jcarousellite_1.0.1.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>lib/jquery.icheck.min.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>lib/jquery.iviewer.js</name></action>
+                <action method="addItem"><type>skin_js</type><name>lib/jquery.form.js</name></action>
                 <action method="addItem"><type>skin_js</type><name>js/script.js</name></action>
             </block>
 

@@ -740,7 +740,7 @@ header {
 }
 .order-rewiev tr:nth-last-child(2) td{
 	border-right: none;
-	border-left: none;
+	/*border-left: none;*/
 }
 .order-rewiev tr:last-child td{
 	border-right: none;
@@ -1422,4 +1422,24 @@ table tfoot button {
 
 .img-overlay {
     background: #000 url(../images/loading.gif) center no-repeat;
+}
+
+.fields, .control {
+    margin-top: 5px;
+}
+
+#my-orders-table tr:last-child td {
+    border-left: 1px solid #969696;
+    color: #969696;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+#my-orders-table tr td:first-child {
+    border-left: medium none;
+    padding-left: 0;
+}
+
+.checkout-order-history .chzn-container {
+    width: 60px !important;
 }
