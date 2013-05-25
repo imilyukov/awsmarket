@@ -29,26 +29,25 @@
 <div class="page-title">
     <h1><?php echo $this->__('My Orders') ?></h1>
 </div>
+<div class="checkout checkout-order-history">
 <?php echo $this->getPagerHtml(); ?>
 <?php if($_orders->getSize()): ?>
-<table class="data-table" id="my-orders-table">
+<table class="data-table order-rewiev" id="my-orders-table">
     <col width="1" />
     <col width="1" />
     <col />
     <col width="1" />
     <col width="1" />
     <col width="1" />
-    <thead>
-        <tr>
-            <th><?php echo $this->__('Order #') ?></th>
-            <th><?php echo $this->__('Date') ?></th>
-            <th><?php echo $this->__('Ship To') ?></th>
-            <th><span class="nobr"><?php echo $this->__('Order Total') ?></span></th>
-            <th><span class="nobr"><?php echo $this->__('Order Status') ?></span></th>
-            <th>&nbsp;</th>
-        </tr>
-    </thead>
     <tbody>
+        <tr>
+            <td><?php echo $this->__('Order #') ?></td>
+            <td><?php echo $this->__('Date') ?></td>
+            <td><?php echo $this->__('Ship To') ?></td>
+            <td><span class="nobr"><?php echo $this->__('Order Total') ?></span></td>
+            <td><span class="nobr"><?php echo $this->__('Order Status') ?></span></td>
+            <td>&nbsp;</td>
+        </tr>
         <?php $_odd = ''; ?>
         <?php foreach ($_orders as $_order): ?>
         <tr>
@@ -70,7 +69,8 @@
     </tbody>
 </table>
 <script type="text/javascript">decorateTable('my-orders-table');</script>
-<?php echo $this->getPagerHtml(); ?>
+<?php //echo $this->getPagerHtml(); ?>
 <?php else: ?>
     <p><?php echo $this->__('You have placed no orders.'); ?></p>
 <?php endif ?>
+</div>
