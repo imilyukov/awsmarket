@@ -92,102 +92,7 @@
     <favorites_list name="awsmarket" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="81" selection-start="3804" selection-end="3804" vertical-scroll-proportion="0.28865978">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="history.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/sales/order/history.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1464" selection-end="1856" vertical-scroll-proportion="-11.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1443" column="26" selection-start="26043" selection-end="26043" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dashboard.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/account/dashboard.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="77" selection-start="1523" selection-end="1523" vertical-scroll-proportion="-9.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/account/dashboard/info.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="77" selection-start="2585" selection-end="2622" vertical-scroll-proportion="-14.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/customer.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.6">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recent.phtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/sales/order/recent.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="44" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-1.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CartController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Checkout/controllers/CartController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="25" selection-start="2077" selection-end="2077" vertical-scroll-proportion="-1.2857143">
-              <folding>
-                <element signature="e#6#963#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.form.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/lib/jquery.form.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1190" column="0" selection-start="45701" selection-end="45701" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/page.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="95" selection-start="3623" selection-end="3623" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -2138,49 +2043,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/account/dashboard.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="77" selection-start="1523" selection-end="1523" vertical-scroll-proportion="-9.375">
+        <state line="38" column="77" selection-start="1523" selection-end="1523" vertical-scroll-proportion="0.43186182">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/customer/account/dashboard/info.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="77" selection-start="2585" selection-end="2622" vertical-scroll-proportion="-14.0">
+        <state line="60" column="77" selection-start="2585" selection-end="2622" vertical-scroll-proportion="0.70472443">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/customer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.6">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.67061144">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1443" column="26" selection-start="26043" selection-end="26043" vertical-scroll-proportion="0.0">
+        <state line="1443" column="26" selection-start="26043" selection-end="26043" vertical-scroll-proportion="0.80733943">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/sales/order/history.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1464" selection-end="1856" vertical-scroll-proportion="-11.875">
+        <state line="42" column="0" selection-start="1464" selection-end="1856" vertical-scroll-proportion="0.58641976">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/template/sales/order/recent.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="44" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-1.875">
+        <state line="26" column="44" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.08490566">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Checkout/controllers/CartController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="25" selection-start="2077" selection-end="2077" vertical-scroll-proportion="-1.2857143">
+        <state line="76" column="25" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.12475248">
           <folding>
             <element signature="e#6#963#0" expanded="true" />
           </folding>
@@ -2189,7 +2094,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/lib/jquery.form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1190" column="0" selection-start="45701" selection-end="45701" vertical-scroll-proportion="0.0">
+        <state line="1190" column="0" selection-start="45701" selection-end="45701" vertical-scroll-proportion="32.220215">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -2198,14 +2103,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/awsmarket/default/layout/page.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="95" selection-start="3623" selection-end="3623" vertical-scroll-proportion="0.0">
+        <state line="53" column="95" selection-start="3623" selection-end="3623" vertical-scroll-proportion="0.78519857">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/frontend/awsmarket/default/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="81" selection-start="3804" selection-end="3804" vertical-scroll-proportion="0.28865978">
+        <state line="124" column="45" selection-start="3985" selection-end="3985" vertical-scroll-proportion="0.44117647">
           <folding />
         </state>
       </provider>
