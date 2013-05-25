@@ -1443,3 +1443,10 @@ table tfoot button {
 .checkout-order-history .chzn-container {
     width: 60px !important;
 }
+
+#checkout-step-login .col-1,
+#checkout-step-login .col-2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
