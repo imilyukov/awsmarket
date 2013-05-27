@@ -1450,3 +1450,7 @@ table tfoot button {
     vertical-align: top;
     width: 48%;
 }
+
+.please-wait img {
+    width: 15px;
+}
