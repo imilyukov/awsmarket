@@ -1,0 +1,45 @@
+<?php
+
+$order = Mage::getModel('sales/order');
+$orderId = Mage::getSingleton('checkout/session')->getLastRealOrderId();
+$order->loadByIncrementId($orderId);
+$postUrl =  Mage::getStoreConfig('payment/paybyway/pay_url');
+
+$merchantPrivateKey = Mage::getStoreConfig('payment/paybyway/merchant_private_key');
+$sub_merchant_id = Mage::getStoreConfig('payment/paybyway/sub_merchant_id');
+
+$amount = $order->getBaseGrandTotal() * 100;
+$currency = $order->getBaseCurrencyCode();
+
+if ($currency != 'EUR')
+    Mage::throwException("Invalid currency, only EUR is accepted");
+
+$orderId = $order->getPbwOrderNumber();
+
+$returnAddress = Mage::getUrl('paybyway/payment/response', array( '_nosid' => true));
+$cancelAddress = $returnAddress;
+
+$locale = Mage::app()->getLocale()->getLocaleCode();
+
+if ($locale == 'fi_FI')
+    $lang = 'FI';
+else
+    $lang = 'EN';
+
+$authCode = $merchantPrivateKey.'|'.$sub_merchant_id.'|'.$amount.'|'.$currency.'|'.$orderId.'|'.$lang.'|'.$returnAddress.'|'.$cancelAddress;
+$authCode = strtoupper(md5($authCode));
+?>
+
+<form name="paymentform" action="<?php echo $postUrl; ?>" method="POST">
+    <input name="MERCHANT_ID" value="<?php echo $sub_merchant_id; ?>" type="hidden">
+    <input name="AMOUNT" value="<?php echo $amount; ?>" type="hidden">
+    <input name="CURRENCY" value="EUR" type="hidden">
+    <input name="ORDER_NUMBER" value="<?php echo $orderId; ?>" type="hidden">
+    <input name="LANG" value="<?php echo $lang; ?>" type="hidden">
+    <input name="RETURN_ADDRESS" value="<?php echo $returnAddress; ?>" type="hidden">
+    <input name="CANCEL_ADDRESS" value="<?php echo $cancelAddress; ?>" type="hidden">
+    <input name="AUTHCODE" value="<?php echo $authCode; ?>" type="hidden">
+</form>
+<script type="text/javascript">
+    document.paymentform.submit();
+</script>
