@@ -70,7 +70,7 @@
                                 <input type="text" title="<?php echo $this->__('City') ?>" name="shipping[city]" value="<?php echo $this->escapeHtml($this->getAddress()->getCity()) ?>" class="input-text <?php echo $this->helper('customer/address')->getAttributeValidationClass('city') ?>" id="shipping:city" onchange="shipping.setSameAsBilling(false);" />
                             </div>
                         </div>
-                        <div class="field">
+                        <!--<div class="field">
                             <label for="shipping:region" class="required"><em>*</em><?php echo $this->__('State/Province') ?></label>
                             <div class="input-box">
                                 <select style="display: none;" id="shipping:region_id" name="shipping[region_id]" title="<?php echo $this->__('State/Province') ?>" class="validate-select" style="display:none;">
@@ -83,7 +83,7 @@
                                 </script>
                                 <input type="text" id="shipping:region" name="shipping[region]" value="<?php echo $this->escapeHtml($this->getAddress()->getRegion()) ?>" title="<?php echo $this->__('State/Province') ?>" class="input-text <?php echo $this->helper('customer/address')->getAttributeValidationClass('region') ?>" style="display:none;" />
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="fields">
                         <div class="field">
@@ -106,12 +106,12 @@
                                 <input type="text" name="shipping[telephone]" value="<?php echo $this->escapeHtml($this->getAddress()->getTelephone()) ?>" title="<?php echo $this->__('Telephone') ?>" class="input-text <?php echo $this->helper('customer/address')->getAttributeValidationClass('telephone') ?>" id="shipping:telephone" onchange="shipping.setSameAsBilling(false);" />
                             </div>
                         </div>
-                        <div class="field">
+                        <!--<div class="field">
                             <label for="shipping:fax"><?php echo $this->__('Fax') ?></label>
                             <div class="input-box">
                                 <input type="text" name="shipping[fax]" value="<?php echo $this->escapeHtml($this->getAddress()->getFax()) ?>" title="<?php echo $this->__('Fax') ?>" class="input-text <?php echo $this->helper('customer/address')->getAttributeValidationClass('fax') ?>" id="shipping:fax" onchange="shipping.setSameAsBilling(false);" />
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 <?php if ($this->isCustomerLoggedIn() && $this->customerHasAddresses()):?>
                     <div class="control">
